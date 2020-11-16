@@ -1,0 +1,4 @@
+- Internet protocol 
+- is a unique number that that reference to a computer. 
+- IPv4 is a 32-bit limit to 4.294.967.296, because of this limit [[NAT]] is used to allowing more computer on the internet
+- IPv6 is a 128-bit where the limit is 3.4 x 10↑34

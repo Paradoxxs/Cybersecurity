@@ -1,0 +1,2 @@
+- Social engineering is the hack humans into behaving in a certain way for your benefits. 
+- examples of social engineering is [[Phishing attacks]]

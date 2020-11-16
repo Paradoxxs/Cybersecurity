@@ -1,0 +1,3 @@
+- DNS : Domain name system
+- The purpose of DNS is to translate human resemble to [[IP]]. 
+    - ex. google.com : 8.8.8.8

@@ -1,0 +1,4 @@
+-  [[Nmap]] is a [[Port Scanner]] tool, used to discovery open ports, services version and OS fingerprinting
+- Nmap scripting engine allows for [[Vulnerability Scanning]] for the most common Vulnerability  
+- Nmap cheat sheet : https://www.stationx.net/nmap-cheat-sheet/
+- 

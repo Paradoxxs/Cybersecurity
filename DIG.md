@@ -1,0 +1,2 @@
+- Linux terminal command for looking up dns records
+- For zone transfer use -t AXFR and partial - t LXFN=[N]

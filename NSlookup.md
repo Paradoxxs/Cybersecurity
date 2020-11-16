@@ -1,0 +1,2 @@
+- Windows CMD for looking up dns records. 
+- For zone transfer use "set type=any" 

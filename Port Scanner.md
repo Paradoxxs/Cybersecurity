@@ -1,0 +1,1 @@
+Port scanning is the process of finding open ports a service have expose and the services behind these ports. 

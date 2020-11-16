@@ -1,0 +1,12 @@
+- The goal of scanning is to learn more about the target, where it differ from reconnaissance is that scanning interact with the target.
+- The workflow of the scanning phase.
+    - Network sweep → network tracing → port scanning →OS fingerprint → version scan → vulnerability scanning.
+- If required to work handle large scans, the best way to do this is by taking a sample size that represents the overall data set. 
+- tcp control bit? 
+- CWR : congestion windows reduction
+- ECE explicit congestion notification echo
+- tcp behavior while port scanning? 
+- upd behavior while scanning? 
+- Tools for port scanning is [[Nmap]] and [[Scapz]]
+- Vulnerability scanning
+    - Discovering vulnerabilities in the system can be done with many tools here I will focus on two [[Nmap]] and [[Nessus]]. 

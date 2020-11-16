@@ -1,0 +1,6 @@
+- Nessus is a [[Vulnerability Scanning]] developed by Tenable 
+- It uses web portal for interaction with the software. 
+- The scans cover a wide range of possibilities including operating systems, network devices, hypervisors, databases, web scanning, and infrastructure. 
+- Nessus uses a web interface as it's gui, allowing the user to configure and setup the scanning of system. 
+- Using different kind of plugins allows for vulnability scanning, be aware of what plugins you use as it might crash the target system. 
+- Always keep Nessus plugins updated to find the newest vulnabilities. 

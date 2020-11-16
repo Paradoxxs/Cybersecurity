@@ -1,0 +1,21 @@
+- Sans 560 ethical hacking course offered by sans. 
+- What is [[penetration testing]] and how does it differ from hacking? 
+- penetration testing is finding security flaws with the permission of the owner of the system. 
+- Threat vs vulnerability vs Risk
+    - Threat : Agent of actor that can cause harm.
+    - Vulnerability : flaw that can be exploited to cause harm.
+    - Risk: Where threat and vulnerability overlap 
+- Type of Pentesting
+    - Network service test
+    - Client-side test
+    - Web application test
+    - Remote dial-up war
+    - Wireless security
+    - [[Social engineering]]
+    - Physical sercurity
+    - Stolen equipment
+    - Cryptanalysis
+- Penetration testing is split up in three phases. 
+    - [[Reconnasissance]]
+    - [[Scanning]]
+    - [[Exploit]]
