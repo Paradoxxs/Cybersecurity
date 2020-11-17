@@ -8,11 +8,8 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Post Exploitation.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -63,9 +60,7 @@
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {
-                "file": "Post Exploitation.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -76,15 +71,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "OSfuscate.md",
+    "NAC.md",
+    "TCP stack fingerprinting.md",
+    "User-Agent impersonation.md",
+    "cpscam.md",
+    "MAC Address impersonation.md",
+    "Network attacks.md",
+    "MAC.md",
     "Post Exploitation.md",
-    "Exploit.md",
-    "Sans 560.md",
-    "Metasploit.md",
-    "vulnerability scanners.md",
-    "rules of engagement.md",
-    "Reconnasissance.md",
-    "OSINT.md",
-    "Vulnerability Scanning.md",
-    "Nessus.md"
+    "AD.md"
   ]
 }

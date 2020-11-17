@@ -1,0 +1,1 @@
+The action of [[MAC]] address impersonation allows the you to change the mac address of the machine with the purpose of impersonating another machine. 

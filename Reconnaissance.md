@@ -1,3 +1,4 @@
+The Reconnaissance phase of hacking.
 - The recon phase is to gather information without interacting with the target. 
 - A popular way for gather information is using [[OSINT]]
 - Other options are dumpster diving

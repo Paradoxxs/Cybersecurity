@@ -16,6 +16,6 @@
     - Stolen equipment
     - Cryptanalysis
 - Penetration testing is split up in three phases. 
-    - [[Reconnasissance]]
-    - [[Scanning]]
+    - [[Reconnaissance]]
+    - [[Scanning phase]]
     - [[Exploit]]

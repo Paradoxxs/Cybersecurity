@@ -1,3 +1,4 @@
+The scanning phase of hacking
 - The goal of scanning is to learn more about the target, where it differ from reconnaissance is that scanning interact with the target.
 - The workflow of the scanning phase.
     - Network sweep → network tracing → port scanning →OS fingerprint → version scan → vulnerability scanning.
