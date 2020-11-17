@@ -8,6 +8,6 @@ The scanning phase of hacking
 - ECE explicit congestion notification echo
 - tcp behavior while port scanning? 
 - upd behavior while scanning? 
-- Tools for port scanning is [[Nmap]] and [[Scapz]]
+- Tools for port scanning is [[Nmap]] and [[Scapy]]
 - Vulnerability scanning
     - Discovering vulnerabilities in the system can be done with many tools here I will focus on two [[Nmap]] and [[Nessus]]. 

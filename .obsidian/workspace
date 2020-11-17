@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Loki.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -60,7 +63,9 @@
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {}
+              "state": {
+                "file": "Loki.md"
+              }
             }
           }
         ]
@@ -71,15 +76,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "OSfuscate.md",
-    "NAC.md",
-    "TCP stack fingerprinting.md",
-    "User-Agent impersonation.md",
-    "cpscam.md",
-    "MAC Address impersonation.md",
+    "Loki.md",
+    "MITM.md",
+    "VRRP.md",
+    "HSRP.md",
+    "Ettercap.md",
+    "ARP.md",
+    "ARP Spoofing.md",
     "Network attacks.md",
-    "MAC.md",
-    "Post Exploitation.md",
-    "AD.md"
+    "Yersina.md",
+    "VLAN Manipulation.md"
   ]
 }
