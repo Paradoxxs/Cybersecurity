@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SNMP attacks.md",
+            "file": "Sans 660.md",
             "mode": "source"
           }
         }
@@ -65,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SNMP attacks.md"
+                "file": "Sans 660.md"
               }
             }
           }
@@ -77,15 +77,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Sans 660.md",
+    "SNMP.md",
     "SNMP attacks.md",
-    "Net-SNMP.md",
     "SNMPblow.pl.md",
-    "onesixtyone.md",
+    "Nmap.md",
     "Network attacks.md",
+    "Net-SNMP.md",
+    "onesixtyone.md",
     "MITM.md",
-    "Eavesdropping attacks.md",
-    "FierceDNS.md",
-    "CMD.md",
-    "Dictionary attacks.md"
+    "Eavesdropping attacks.md"
   ]
 }

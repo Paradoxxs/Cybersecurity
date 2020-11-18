@@ -4,3 +4,4 @@ This course is the next step after [[Sans 560]]
 This course contains the advances methods for ethical hacking. 
 
 Accessing the network using [[Network attacks]]
+[[Crypto]] for pen testers 
