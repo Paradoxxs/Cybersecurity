@@ -1,0 +1,1 @@
+Similar in nature too [[Brute-force]] attacks instead using a wordlist to iterate through 

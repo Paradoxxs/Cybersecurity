@@ -16,3 +16,11 @@ Access
 Manipulation
 	[[MITM]]
 	[[ARP]]
+	
+Exploiting 
+	Software updates 
+		Commonly update are delivered over HTTP, which can be manipulated.
+	[[ISR Evilgrade]]
+	[[SSL strip]]
+	[[SNMP attacks]]
+	[[FierceDNS]]

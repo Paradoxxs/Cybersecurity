@@ -1,0 +1,1 @@
+FierceDNS provides the means to quickly emulate [[DNS]] server attempting to perform a zone transfer, then using short common hostnames list to [[Brute-force]] configured DNS entries. It also perform reverse lookups on IP to identify other sub-domains

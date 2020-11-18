@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "0fd8ebbe10133468",
+        "id": "28837c4f83699562",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MITM.md",
+            "file": "SNMP attacks.md",
             "mode": "source"
           }
         }
@@ -27,24 +27,25 @@
         "type": "tabs",
         "children": [
           {
+            "id": "1ca05817b7a448ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Dic"
+              }
+            }
+          },
+          {
             "id": "a3b2bec86140c112",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {}
             }
-          },
-          {
-            "id": "1ca05817b7a448ed",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": ""
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -64,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MITM.md"
+                "file": "SNMP attacks.md"
               }
             }
           }
@@ -76,15 +77,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "MITM.md",
-    "Loki.md",
-    "VRRP.md",
-    "HSRP.md",
-    "Ettercap.md",
-    "ARP.md",
-    "ARP Spoofing.md",
+    "SNMP attacks.md",
+    "Net-SNMP.md",
+    "SNMPblow.pl.md",
+    "onesixtyone.md",
     "Network attacks.md",
-    "Yersina.md",
-    "VLAN Manipulation.md"
+    "MITM.md",
+    "Eavesdropping attacks.md",
+    "FierceDNS.md",
+    "CMD.md",
+    "Dictionary attacks.md"
   ]
 }

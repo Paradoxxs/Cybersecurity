@@ -1,5 +1,5 @@
 - Sans 560 ethical hacking course offered by sans. 
-- What is [[penetration testing]] and how does it differ from hacking? 
+- What is [[Penetration testing]] and how does it differ from hacking? 
 - penetration testing is finding security flaws with the permission of the owner of the system. 
 - Threat vs vulnerability vs Risk
     - Threat : Agent of actor that can cause harm.
