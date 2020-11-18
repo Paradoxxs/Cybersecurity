@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sans 660.md",
+            "file": "Sans 555.md",
             "mode": "source"
           }
         }
@@ -65,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sans 660.md"
+                "file": "Sans 555.md"
               }
             }
           }
@@ -77,15 +77,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Sans 555.md",
+    "Log.md",
+    "SIEM.md",
+    "log.md",
+    "Message broker.md",
+    "Agent.md",
+    "Untitled.md",
     "Sans 660.md",
     "SNMP.md",
-    "SNMP attacks.md",
-    "SNMPblow.pl.md",
-    "Nmap.md",
-    "Network attacks.md",
-    "Net-SNMP.md",
-    "onesixtyone.md",
-    "MITM.md",
-    "Eavesdropping attacks.md"
+    "SNMP attacks.md"
   ]
 }
