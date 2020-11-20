@@ -1,0 +1,1 @@
+Kon-boot an interesting and valuable attack image to boot the victim into, it hooks into a pre-boot environment by lurking in memory between BIOS and first boot drive. 

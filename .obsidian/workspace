@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "28837c4f83699562",
+        "id": "0f28ecd433d9d922",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Sans 660.md",
+            "file": "Privilege escalation.md",
             "mode": "source"
           }
         }
@@ -32,7 +32,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Dic"
+                "query": "scapy"
               }
             }
           },
@@ -65,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sans 660.md"
+                "file": "Privilege escalation.md"
               }
             }
           }
@@ -77,15 +77,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Privilege escalation.md",
+    "Restricted environments.md",
+    "Exploit.md",
     "Sans 660.md",
-    "SNMP.md",
-    "SNMP attacks.md",
-    "SNMPblow.pl.md",
-    "Nmap.md",
-    "Network attacks.md",
-    "Net-SNMP.md",
-    "onesixtyone.md",
-    "MITM.md",
-    "Eavesdropping attacks.md"
+    "Reconnaissance.md",
+    "Exploit^privilegeescalation.md",
+    "metadata.md",
+    "Escalate privileges.md",
+    "Esclilate.md",
+    "DHCP.md"
   ]
 }

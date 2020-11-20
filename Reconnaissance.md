@@ -3,7 +3,7 @@ The Reconnaissance phase of hacking.
 - A popular way for gather information is using [[OSINT]]
 - Other options are dumpster diving
 - Documents  ^f74e91
-	- Documents are rick in [[metadata]] such as username, path, email, and system. 
+	- Documents are rick in [[Metadata]] such as username, path, email, and system. 
 	- Type of document rich in metadata
 		- PDF, doc, dot, docx, xls, xlt, xlsx, ppt, pot, pptx, jpg, jpeg, html, htm
 	- Tools for extracting metadata [[ExitfTool]] and [[Strings]]

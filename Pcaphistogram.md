@@ -1,0 +1,1 @@
+Pcaphistogram a Perl tool that read data from an packet capture payload extraction using tools as [[Scapy]] or [[Tcpick]]. Pcaphistogram extracts the payload data and create a graph in GNUPlot format. 
