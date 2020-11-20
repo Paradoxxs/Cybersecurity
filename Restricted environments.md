@@ -5,6 +5,16 @@ Types of Restricted environments
 	-	SELinux/APPArmor
 	-	Windows softare restriction policies (SRP)
 	
+Windows restricted desktop
+	-	Check local admin rights
+	-	physical security controls
+			BIOS, boot, drive. 
+	-	GPO 
+		-	Software restriction policies
+			-	Levels : Unrestricted
+			-	based on Certificate, Hash, Zone, Path
+	- AppLocker
+		- Deny/Allow user/group specific
 Chroot 
 	Designed to fake CWD, by hiding the rest of the filesystem from application, it frequently used as a security feature, Chroot set the root directory to were the process is. Chroot gives a false sense of security. It should only be used to test an installation ensuring it only write into a specific folder. 
 	- Not virtualized 

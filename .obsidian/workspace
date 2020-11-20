@@ -1,20 +1,16 @@
 {
   "main": {
-    "id": "679bf9ef58519ec8",
+    "id": "368b6d1d7d4acd3e",
     "type": "split",
     "children": [
       {
-        "id": "0f28ecd433d9d922",
+        "id": "7d67bb0131d5ca8e",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
             "file": "Privilege escalation.md",
-=======
-            "file": "Sans 555.md",
->>>>>>> master
             "mode": "source"
           }
         }
@@ -23,57 +19,62 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c5204bd5d6d91567",
+    "id": "7722781c971d1a19",
     "type": "split",
     "children": [
       {
-        "id": "bc0ccb4d73831f28",
+        "id": "61d0bf31d2f79b1f",
         "type": "tabs",
         "children": [
           {
-            "id": "1ca05817b7a448ed",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "scapy"
-              }
-            }
-          },
-          {
-            "id": "a3b2bec86140c112",
+            "id": "e11198a32ff26c25",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {}
             }
+          },
+          {
+            "id": "6552dab59ce630c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "5f0a82511543736b",
+    "id": "47a348a6914475ff",
     "type": "split",
     "children": [
       {
-        "id": "12990a5f2ba31ff7",
+        "id": "ae4387d5a9ddf99a",
         "type": "tabs",
         "children": [
           {
-            "id": "f0712193040bb15e",
+            "id": "b50c204b4dc48cf5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Privilege escalation.md"
-=======
-                "file": "Sans 555.md"
->>>>>>> master
+                "file": "Privilege escalation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -85,28 +86,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-<<<<<<< HEAD
     "Privilege escalation.md",
     "Restricted environments.md",
-    "Exploit.md",
-    "Sans 660.md",
-    "Reconnaissance.md",
-    "Exploit^privilegeescalation.md",
-    "metadata.md",
-    "Escalate privileges.md",
-    "Esclilate.md",
-    "DHCP.md"
-=======
-    "Sans 555.md",
-    "Log.md",
-    "SIEM.md",
-    "log.md",
-    "Message broker.md",
-    "Agent.md",
-    "Untitled.md",
-    "Sans 660.md",
-    "SNMP.md",
-    "SNMP attacks.md"
->>>>>>> master
+    "Sans 660.md"
   ]
 }

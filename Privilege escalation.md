@@ -34,12 +34,12 @@ Method of escaping
 		- Check for known kernel vulnerabilities. 
 		- use Itrace to provide low level behavioral information. 
 		- sudo -l : to check what sudo allows. 
+	- Windows
+		-	Replace shell explore in reg
+		-	Using "dialog boxes" allow access to path and files normally hidden for us
+			-	e.g. Open Dialog, Print Dialog, Help, Links 
+		- Notepad support url in "Open" 
+		- MS paint as FTP tool
+		
 
 
-Windows restricted desktops
-	-	Check local admin rights
-	-	physical security controls
-			BIOS, boot, drive. 
-	-	GPO 
-		-	Software restriction policies
-			-	based on Certificate, Hash, Zone, Path
