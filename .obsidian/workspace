@@ -10,7 +10,11 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "Privilege escalation.md",
+=======
+            "file": "Sans 555.md",
+>>>>>>> master
             "mode": "source"
           }
         }
@@ -65,7 +69,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Privilege escalation.md"
+=======
+                "file": "Sans 555.md"
+>>>>>>> master
               }
             }
           }
@@ -77,6 +85,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Privilege escalation.md",
     "Restricted environments.md",
     "Exploit.md",
@@ -87,5 +96,17 @@
     "Escalate privileges.md",
     "Esclilate.md",
     "DHCP.md"
+=======
+    "Sans 555.md",
+    "Log.md",
+    "SIEM.md",
+    "log.md",
+    "Message broker.md",
+    "Agent.md",
+    "Untitled.md",
+    "Sans 660.md",
+    "SNMP.md",
+    "SNMP attacks.md"
+>>>>>>> master
   ]
 }
