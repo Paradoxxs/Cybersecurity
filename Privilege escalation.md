@@ -41,4 +41,5 @@ Windows restricted desktops
 	-	physical security controls
 			BIOS, boot, drive. 
 	-	GPO 
-	
+		-	Software restriction policies
+			-	based on Certificate, Hash, Zone, Path
