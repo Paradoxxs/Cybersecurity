@@ -19,3 +19,6 @@ The process of working with [[Restricted environments ]]
 	- Working around the restrictions
 	- Gaining privileged and unrestricted filesystem access. 
 	
+	
+[[Python]] for Pen-testers
+Leveraging [[Scapy]]

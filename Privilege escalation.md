@@ -40,6 +40,12 @@ Method of escaping
 			-	e.g. Open Dialog, Print Dialog, Help, Links 
 		- Notepad support url in "Open" 
 		- MS paint as FTP tool
-		
+		- NSLookup as File transfer 
+			 By hiding data into a TXT record on a domain under our control, pile the TXT data into a file. 
+		- 	Use debug.exe to recreate EXE or DLL. 
+				Takes ASCII and reads into memory. 
+		-	rundll32.exe load malicious dll
+		-	Office macros
+		-	
 
 

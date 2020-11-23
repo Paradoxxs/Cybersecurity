@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Privilege escalation.md",
+            "file": "Scapy.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privilege escalation.md",
+                "file": "Scapy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Privilege escalation.md",
-    "Restricted environments.md",
-    "Sans 660.md"
+    "Scapy.md",
+    "Sans 660.md",
+    "Python.md",
+    "Untitled.md",
+    "User-Agent impersonation.md",
+    "Penetration testing.md",
+    "Phishing attacks.md",
+    "Vulnerability Scanning.md",
+    "MITM.md",
+    "Privilege escalation.md"
   ]
 }
