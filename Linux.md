@@ -47,9 +47,9 @@ Heap performing large memory allocation to hold user data or run rick content wi
 Once a program is loaded into memory, EIP holds the address for the first instruction in the code segment to start the program, also known as the program entry point. The code segment is often loaded at lower memory addresses than other segments. The data segment stores global and static variables used  by the program. With some implementations you will see other segments loaded that could potentially divide up the types of data in the data segment. The BSS segment stores uninitialized variables that may not be needed by the program, or that will remain uninitialized until they are referenced. 
 Following the BSS segment is where the heap segment begins for example a web browser need to load an image on a page. memory must be allocated on the heap at this point in order to store the image in memory. The heap grows from lower memory addressing towards the stack segment. starting at a much higher memory address. 
 
-Shellcode
+Shellcode 
 It primarily used to spawn a shell. Shellcode is usually written in assembly and then assembled into machine code by tools such as netwide assembler. Nowadays it used to thing under the right of the program being compromised. A common usage of shellcode is to bind a shell listening port on the system, add user, dll injection. 
-null bytes must not be part of the shell code, because if function hit a null byte it will be translated to a string terminator, causing the shell code to fail.
+null bytes must not be part of the shell code, because if function hit a null byte it will be translated to a string terminator, causing the shell code to fail. ^Shellcode
 
 
 Smashing the stack 

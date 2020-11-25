@@ -53,7 +53,19 @@ WOW64
 Process environment block
 	structure data in a processes user address space that holds information about the process. This information includes items such as the base address of the loaded module the start of the heap , imported DLLs.
 
-	
+Windows Shellcode 
+Is sed in the same way as on [[Linux#^Shellcode]] spawning a shell, adding account, command execution and practical anything else. Shell on windows have more optaions as it allow DLL injection and installation control software. Shell code is only good for the processor architecture for which it was written for. One of the biggest challenges of writhing shellcode on windows is determining the location of the desired function within the OS. unlike Linux where system calls and function are static between version. On windows it constantly changing.
+Windows does not allow for direct access to opening sockets and network ports through direct system calls. you must go through the API function to archive this. 
+Forcing the shellcode to use API to make system calls. 
+Type of shellcodes
+	-	Bind Shell : listen on a port 
+	-	Reverse shell : connect to a specified IP address and port
+	-	Execute command
+	-	Add User
+	-	VNC server injection
+	-	DLL injection
+Multi-stage shellcode for when there not enough space to fit the shellcode, the first-stage loader get additional shellcode over the connection. 	
+
 Tools
 [[OllyDbg]] allows one to inspect and modify assembly code for compiled binary. API calls can be monitored and intercepted. 
 
