@@ -22,3 +22,10 @@ The process of working with [[Restricted environments ]]
 	
 [[Python]] for Pen-testers
 Leveraging [[Scapy]]
+[[Fuzzing]] introduction and Operation 
+
+[[Reverse engineering ]]
+
+Exploiting [[Linux]] for penetration testers
+
+Exploit [[Windows]] for penetration testing 

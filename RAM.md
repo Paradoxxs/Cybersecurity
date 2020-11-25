@@ -1,1 +1,1 @@
-Random access memory
+Random access memory is volatile memory that loses the information it holds when its host is powered off. 
