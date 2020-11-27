@@ -6,13 +6,14 @@ example
 	fe80:0000:0000:0000.ccac:0000:08ac:7405
 	fe80::ccac:0:8AC:7405
 
+
 IPv6 protocol adds a new layer of complexity for hackers, and for the management and monitoring of the enterprise. 
-
-IPv6 also create new oppitunity as it brings it new flaws that can lead to bypass IPv4 defense systems. 
-
+IPv6 also create new opportunity as it brings it new flaws that can lead to bypass IPv4 defense systems. 
 IPv6 have unknowingly been adopted in many organizations as component of modern operating systems. This lack of understanding of the IPv6 usage in organizations has lead to a lack of monitoring of IPv6 attacks against devices. 
+IPv6 support encryption in the protocol, and authentication of endpoints. 
 
-were the limited IPv4 address make is possible to perform active scans to identify devices. the size of IPv6 address make active scanning impractical. 
+
+Were the limited IPv4 address make is possible to perform active scans to identify devices. the size of IPv6 address make active scanning impractical. 
 There for passive scanning is used 
 Using the address ff02::1 is used for contacting all link-local devices. together with the ping command we can contact all local devices on the network and store the response at neighbors. 
 [[Nmap]] allows for scanning of IPV6 hosts but is limited to single host at the time. 

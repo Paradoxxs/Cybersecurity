@@ -1,0 +1,1 @@
+Metropolitan are network (MAN) used to describe a network that spans a citywide area. It commonly used when organizations need to connect several minor facilities together. it shares many of the characteristics of [[LAN]] and the same threats.  

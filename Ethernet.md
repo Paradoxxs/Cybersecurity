@@ -1,0 +1,1 @@
+Ethernet is the most popular media access protocol (layer 2) used on LAN it is nearly ubiquitous for networking . A chunk of data transmitted by Ethernet over the wire is called a frame. 

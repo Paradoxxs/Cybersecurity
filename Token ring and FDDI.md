@@ -1,0 +1,4 @@
+Token ring and FDDI 
+	Token ring offers an alternative method to sending signals across the network. Originally developed by IBM in 1970s. it is still in use on some network. but not as popular as Ethernet. Token ring is the logical ring topology where system can only communicate with their immediate neighbors and the data travel one way in a closed loop. 
+	Fiber distributed data interface (FDDI) is very similar to token ring in that it uses a token to pass data along a logical ring. 
+	Fault tolerance regardless of the number of rings have a certain level of fault tolerance built right in. When a system does not see a token within a specific time period, it beings to send a beacon frame. A beacon is simply the  system way to it have not see the token for a period of time. 

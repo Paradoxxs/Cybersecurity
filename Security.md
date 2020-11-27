@@ -1,0 +1,1 @@
+Prevention is idea but detection is a must. 

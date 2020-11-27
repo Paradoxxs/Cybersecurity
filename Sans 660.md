@@ -96,7 +96,7 @@ False
 ---
 
 Stack smashing protection (SSP) is based on what well known stack protection tool? #flashcard 
-Propolice
+ProPolice
 ---
 
 How large is the cookie used by MS visual studio? #flashcard 
