@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TCP.md",
+            "file": "Defense in depth.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCP.md",
+                "file": "Defense in depth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "TCP.md",
-    "TTP.md",
-    "NAC.md",
-    "Network attacks.md",
-    "LAN.md",
-    "RADIUS.md",
-    "SNMPblow.pl.md",
-    "Sans 555.md",
+    "Defense in depth.md",
+    "Sans 401.md",
+    "Risk mangement.md",
+    "CIA triad.md",
+    "Physical security.md",
+    "VM.md",
     "Network.md",
-    "UDP.md"
+    "network sniffer.md",
+    "ARP.md",
+    "WireShark.md"
   ]
 }

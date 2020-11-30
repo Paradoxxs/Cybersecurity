@@ -2,7 +2,7 @@ Address resolution protocol translate IP to MAC address.
 
 
 ARP spoofing
-ARP spoofing is a technique used to manipulate a switch allowing an attacker to eavesdrop on LAN activity by creating an [[MITM]]
+ARP spoofing is a technique used to manipulate a switch allowing an attacker to eavesdrop on LAN activity by creating an [[MITM]] ^Spoofing
 
 Procedure 
 	- Attack enumerates hosts on the network 
