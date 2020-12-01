@@ -1,5 +1,5 @@
 You never find bugs in code, you do not execute. 
-Fuzzing is a software testing mechanism that sends malformed data to  protocol implementations. This could be a server process. web application or a file. 
+Fuzzing is a software testing mechanism that sends malformed data to protocol implementations. This could be a server process. web application or a file. 
 Fuzzing is considered a essential part of software development lifecycle with security in mind. developer that utilize fuzzing have a higher chance of identifying flaws. 
 Programming is a useful skills for fuzzing, two popular language are python and ruby. 
 Fuzzing is fault-testing technique for discovering vulnerabilities 

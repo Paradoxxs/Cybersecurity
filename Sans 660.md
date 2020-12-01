@@ -8,7 +8,7 @@ Accessing the network using [[Network attacks]]
 Many pen testers skip over crypto in their assessments, with some essential skill, the recognize of exploit of weak cryptography
 
 Attacking with [[Network Booting]]
- 	-	pre-boot environment protocols
+ 	-	[[Pre-boot enironment]] protocols
 	-	Conditions and limitation on network bookting
 	-	Mechanics to deliver malicious OS over the lan
 	- 	exposure to virtual infrastructure and iSCSI components

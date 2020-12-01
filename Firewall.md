@@ -1,0 +1,1 @@
+The first thing many security analyst does when designing network is to plan for a firewall to establish secure network perimeter. This is done by filtering the packet based on the packet header information. based on the IP and port the packet can be allowed or denied. 

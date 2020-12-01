@@ -12,5 +12,5 @@ Attacks
 	 -	Before endpoint security 
 	 -	Physical attacks from a distance
 	 -	Passive	
-	 	-	Pilfer credentials from thin-cleint image
+	 	-	Pilfer credentials from thin-client image
 		-	Obtain PXE image 

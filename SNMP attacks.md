@@ -4,6 +4,6 @@ SNMP attack exploit the [[SNMP]] protocol in form of once of three categories
 	-	Remote system management: If read/write access to the MIB is achieved an attacker can remotely control and configure devices. 
 	
 Tools
-	[[onesixtyone]]
+	[[Onesixtyone]]
 	[[SNMPblow.pl]]
 	[[Net-SNMP]]

@@ -19,7 +19,7 @@ Manipulation
 	
 Exploiting 
 	Software updates 
-		Commonly update are delivered over HTTP, which can be manipulated.
+	Commonly update are delivered over HTTP, which can be manipulated.
 	[[ISR Evilgrade]]
 	[[SSL strip]]
 	[[SNMP attacks]]
