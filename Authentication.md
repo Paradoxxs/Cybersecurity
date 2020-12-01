@@ -1,0 +1,1 @@
+Authentication is the process of which you prove you are how you say you are. 

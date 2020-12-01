@@ -1,0 +1,1 @@
+Authorization is determining what someone has access to and allowed to do after [[Authorization]]

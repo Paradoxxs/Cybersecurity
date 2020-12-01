@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Defense in depth.md",
+            "file": "Incident Handling.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NAC",
+                "query": "Incident",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defense in depth.md",
+                "file": "Incident Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Incident Handling.md",
+    "Vulnerability Management.md",
     "Defense in depth.md",
-    "Sans 401.md",
-    "Risk mangement.md",
-    "CIA triad.md",
-    "Physical security.md",
-    "VM.md",
-    "Network.md",
-    "network sniffer.md",
-    "ARP.md",
-    "WireShark.md"
+    "Access control.md",
+    "Biometrics.md",
+    "SAM.md",
+    "One-time password.md",
+    "MFA.md",
+    "Cain.md",
+    "John the Ribber.md"
   ]
 }
