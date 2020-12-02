@@ -1,0 +1,3 @@
+Switch
+A switch works as a smart version of a hub, because it actually understands where to send data, instead of sending it to everyone. It achieves this by using MAC addresses as unique identifiers for recipients of incoming data, so it can send it to the right system. In this diagram below, if the Desktop Computer wants to print a document, they would send the request which would reach the Network Switch, which will know to send it to the Printer as the Desktop Computer will include the MAC address in the request (which is gained by using Address Resolution Protocol, or ARP).
+[Switch](https://www.lucidchart.com/pages/templates/network-diagram/network-switch-diagram-template)

@@ -1,0 +1,3 @@
+Hub
+A hub is a network device that connects all devices on a Local-Area-Network or LAN. When a system sends data to the hub on one port, the hub will broadcast these to all other attached devices (see image below). Hub’s can be referred to as “dumb” devices, because they do not understand who is the intended recipient of the data that has been received, so it sends it to all devices. Although the data will eventually reach the intended system, it generates unnecessary traffic, and can also allow attackers to steal data. If an attacker is connected to a hub, whenever any connected host sends data, it will be sent to every other host, including the attacker’s machine!
+[Hub](https://geek-university.com/ccna/what-is-a-network-hub/)

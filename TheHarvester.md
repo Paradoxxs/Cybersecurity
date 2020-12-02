@@ -1,0 +1,1 @@
+The Harvester is an information gathering tool that utilizes OSINT sources to gather information about the target domain, and retrieve information such as hostnames, IP addresses, employees (and their positions), email addresses, and much more. In the below screenshot, I am performing simple reconnaissance on the domain Google.com, using Google as the data source:

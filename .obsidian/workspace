@@ -4,21 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "1cbcf6dd5d295085",
-        "type": "leaf",
-        "state": {
-          "type": "graph",
-          "state": {}
-        }
-      },
-      {
         "id": "33d0fca3cb3b3f57",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NIDS.md",
+            "file": "Network devices.md",
             "mode": "source"
           }
         }
@@ -48,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Host-based ",
+                "query": "Router",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NIDS.md",
+                "file": "Network devices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "NIDS.md",
-    "IDS.md",
+    "Network devices.md",
+    "Firewall.md",
+    "Hub.md",
+    "Router.md",
+    "Switch.md",
+    "Bridge.md",
     "Untitled.md",
-    "Cybersecurity fundamentals.md",
-    "Authentication.md",
-    "HIDS.md",
-    "Sans 401.md",
-    "Darkweb operations.md",
-    "IOC.md",
-    "Internet.md"
+    "Dictionary attacks.md",
+    "Digital Forensics.md",
+    "Chain of custody.md"
   ]
 }

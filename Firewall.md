@@ -1,1 +1,3 @@
-The first thing many security analyst does when designing network is to plan for a firewall to establish secure network perimeter. This is done by filtering the packet based on the packet header information. based on the IP and port the packet can be allowed or denied. 
+Firewall
+A firewall is a network device that provides fundamental network security, by monitoring incoming and outgoing traffic and determining whether to allow or block it, based on rules. Firewalls can come in software form, or hardware form as physical devices that are plugged into network infrastructure. This allow us to create private networks, where only intended communications can come in, or out.
+[Firewall](https://www.wesolveit.co.uk/services/data-security/network-security-management/firewall-unified-threat-management/network-firewalls)
