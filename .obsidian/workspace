@@ -6,11 +6,22 @@
       {
         "id": "33d0fca3cb3b3f57",
         "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Honeypot.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "b95c3f48663f8ea5",
+        "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Network devices.md",
+            "file": "Firewall.md",
             "mode": "source"
           }
         }
@@ -40,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Router",
+                "query": "Firewall",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,11 +60,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "47a348a6914475ff",
@@ -69,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network devices.md",
+                "file": "Firewall.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +99,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Network devices.md",
     "Firewall.md",
-    "Hub.md",
-    "Router.md",
-    "Switch.md",
-    "Bridge.md",
+    "Honeypot.md",
     "Untitled.md",
-    "Dictionary attacks.md",
-    "Digital Forensics.md",
-    "Chain of custody.md"
+    "TCPDump.md",
+    "Malware.md",
+    "Rootkit.md",
+    "Brute force.md",
+    "Network sniffer.md",
+    "WireShark.md",
+    "Network devices.md"
   ]
 }

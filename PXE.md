@@ -14,7 +14,7 @@ Equipment is often pre-configured and is already exposed or one step away from b
 Many WMware products all have network booting turned on in the virtual BIOS. 
 Integrated Lights-Out Management and similar technology.
 
-Monitoring PXE traffic can be done with [[WireShark]]
+Monitoring PXE traffic can be done with [[Wireshark]]
 Attacking PXE with [[Scapy]], another method is using [[Ettercap]] as a [[MITM]] between client and DHCP server. 
 
 Wake on LAN 

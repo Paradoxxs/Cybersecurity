@@ -1,0 +1,1 @@
+Denial of service attacks is exhausting the resource of the machine with input so valid user can gain access to the services.

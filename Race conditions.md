@@ -1,0 +1,1 @@
+Race conditions exploit that small windows of time between when a security contol is applied and when the service is used. Race conditions are also knows as Time of check time of use or TOC/TOU attacks
