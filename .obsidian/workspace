@@ -4,24 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "33d0fca3cb3b3f57",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Honeypot.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "b95c3f48663f8ea5",
+        "id": "55b7fd2b77339d0d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Firewall.md",
+            "file": "IDS.md",
             "mode": "source"
           }
         }
@@ -51,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Firewall",
+                "query": "IDS",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,13 +49,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "47a348a6914475ff",
@@ -82,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Firewall.md",
+                "file": "IDS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Firewall.md",
-    "Honeypot.md",
+    "IDS.md",
+    "NIDS.md",
+    "alert.md",
     "Untitled.md",
-    "TCPDump.md",
-    "Malware.md",
-    "Rootkit.md",
-    "Brute force.md",
-    "Network sniffer.md",
-    "WireShark.md",
-    "Network devices.md"
+    "Incident Handling.md",
+    "Nessus.md",
+    "Social engineering.md",
+    "Vulnerability Scanning.md",
+    "Firewall.md",
+    "Honeypot.md"
   ]
 }
