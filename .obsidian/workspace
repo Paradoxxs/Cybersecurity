@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "55b7fd2b77339d0d",
+        "id": "e320f63d849f4075",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "IDS.md",
+            "file": "Windows.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IDS",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDS.md",
+                "file": "Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "IDS.md",
-    "NIDS.md",
-    "alert.md",
+    "Windows.md",
+    "AD.md",
+    "GPO.md",
     "Untitled.md",
-    "Incident Handling.md",
+    "OSINT.md",
+    "Wifi 802.11.md",
+    "Bluetooth.md",
     "Nessus.md",
-    "Social engineering.md",
-    "Vulnerability Scanning.md",
-    "Firewall.md",
-    "Honeypot.md"
+    "Network.md",
+    "WAN.md"
   ]
 }

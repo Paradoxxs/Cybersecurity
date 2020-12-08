@@ -1,0 +1,2 @@
+Windows Server Update Service (WSUS) is the next version of automatic update for internal use. 
+The WSUS server connect to Microsoft and download the latest information about available updates on a scheduled basis. The patch files are downloaded to the local WSUS, allowing clients to download from the WSUS. The update download using background intelligent transfer (BITS)

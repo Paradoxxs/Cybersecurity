@@ -1,0 +1,2 @@
+Group policy objects is a technology that can be used to configure every  security option on the domain-joined computers. It gives you centralized control which can scale to hundreds of thousands of windows computers in the AD forest. 
+GOP is a script that the computer will execute at boot-up and every 90 to 120 minutes will check again to see if there are made any changes. 

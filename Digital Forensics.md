@@ -9,13 +9,10 @@ Type of forensics
 	
 	
 Evidence
-
 	Computer 
 		Most of the time, evidence will be files and other data on electronic storage media, such as hard-drives in desktops, laptops, and mobile devices
-		
 	Network
 		 network devices such as a web proxy or router will also hold information about requested sites online
-		 
 	 Mobile devices
 		 The wealth of information on our phones is include, and can be very useful to investigators. Evidence such as call history (incoming/outgoing/number/duration), text messages, contacts, web history, images, videos, apps, GPS location, notes, and much more can be retrieved
 		 

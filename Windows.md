@@ -8,7 +8,6 @@ Memory
 	PE/CONFF utilize import address table (IAT) and export address table (EAT) the IAT holds symbols that require resolution upon program runtime and EAT make available functions local to the program or library that may be used by other executable files.
 	Windows API is the interface used to provide access to system resources. Functions are grouped together into [[DLL]]. And are used for everything involving OS. 
 	Exploit mitigation controls. 
-	___
 		Application opt-in control 
 			-	ASLR 
 			-	DEP (Data Execution Prevention)
@@ -19,7 +18,6 @@ Memory
 			- Security cookies (canaries)
 			-	application ASLR
 			-	SafeSEH
-		______
 		Controls
 			SafeSEH builds a table of trusted exception handlers during compile-time 
 			99% of windows DLLs on win 7 is compiled with SafeSEH, the problem comes with third party are not compiled with SafeSEH
@@ -38,10 +36,8 @@ Memory
 				-	PEB is randomized separately
 			EMET 
 				Greatly increases the difficulty of exploit a vulnerability 
-				______
 			Thread information block (TIB) or Thread environment block (TEB)
 				They are synonymous, the TIB is structure of data that stores information about the current thread, and every thread has one. 
-				__
 			Structured exception handling (SEH)
 				The pointer stored inside the TIB points that is part of a linked list of exception handlers and structures if an exception occurs within a program, the windows OS will use a callback function to allow the program the chance to handle the exception. If the program do not handle the exception the default handler will pick up the exception and terminate the program. 
 				^Memory
@@ -75,3 +71,29 @@ Tools
 
 PEDump displays the data structure of portable executable. allowing the user to view all headers iwthin the PE file and the section tables, contents RVA infomration, symbol table, relocation information and etc. 
 
+Secure boot 
+	With Unified extensible firmware interface (UEFI) firmware module in the motherboard, it checks the digital signature of all boot-up binaries and the firmware itself and load anti-virus drivers as soon as possible. The intention is to detect malware like bootkits. It does not require a trusted platform module or BitLocker drive. 
+	
+Workgroups
+	Stand-alone computer with local account only. 
+	
+	
+Active directory 
+	Windows can use [[AD]] to manage multiple computers and users
+	
+Windows server update service [[WSUS]]
+
+NTFS 
+	Windows NT file system should be used on every hard drive. 
+	Advanced security settings is used to create access control rules for folder and files 
+	
+	
+Registry 
+	All configuration settings for the computer hardware, OS, applications and users are stored in database called registry. The registry can be modified directly using scripts, command line or regedit GUI tool
+	
+Bitlocker 
+	Is method of disk encryption using AES, and boot-up integrity check with TPM 
+	
+	
+TPM 
+	Trusted platform module is a chip built into the motherboard of a computer which can perform on-board random number generation, encryption, hashing and other cryptographic operations. The TPM is also a secure storage location for keys, passwords, hashes and other secrets. 

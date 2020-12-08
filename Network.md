@@ -2,9 +2,6 @@ Network is segmented into difference layers, the [[OSI]] model describes this, a
 
 Network relies on [[IP]] to handle transmission 
 
-
-
-
 Difference type of networks 
 	[[LAN]]
 	[[WAN]]
@@ -23,12 +20,7 @@ Collisions to a minimum, systems are required to check wether anyone else is alr
 
 Asynchronous Transfer mode (ATM) before communication can be initiated an virtual path identifiers (VPI) needs to be created, this allows for end to end connectivity. It a very specialized protocol and typically used were there very high speed requirements. 
 	
-Network Hardware
- -	HUB, Replicates traffic onto all ports, minimal security
- -	Bridge maintains track of network address, segments traffic and break up collision domains 
- -	Switch segmentation , each port receives traffic for the appropriate host using [[MAC]]
- -	Router forwards or drops traffic based on destination IP address. 
- -	Embedded switches vendors are starting to blur the line between routers and switches. offer improved performance, before taking Embedded switches in use ensure the supported functionality on the device to ensure it meets the requirement of the organizations. 
+ [[Network devices]] is the hardware used to establish connection. 
 
 Network design
 	Segments 

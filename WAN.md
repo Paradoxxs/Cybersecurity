@@ -4,7 +4,7 @@ Dedicated lines is a way to interconnect two remote sites to provide a dedicated
 
 Frame Relay is s a WAN technology that is similar to [[Ethernet]] and [[Token ring and FDDI]] in that is based on packet switching, which means that it break transmitted data into packet
 
-Multi protocol label switching (MPLS) The advantages is that it supports IP taffic including [[IPv6]] VOIP and IP video. MPLS is a packet switching technology. In the OSI model it often considered a layer 2.5 technology as it sits between layer 2 and 3. 
+Multi protocol label switching (MPLS) The advantages is that it supports IP traffic including [[IPv6]] VOIP and IP video. MPLS is a packet switching technology. In the OSI model it often considered a layer 2.5 technology as it sits between layer 2 and 3. 
 
 
 ISDN, DLS and cable modems all offer network connectivity to businesses through telephone companies, television cable and ISP. 
