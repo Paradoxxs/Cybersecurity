@@ -97,3 +97,63 @@ Bitlocker
 	
 TPM 
 	Trusted platform module is a chip built into the motherboard of a computer which can perform on-board random number generation, encryption, hashing and other cryptographic operations. The TPM is also a secure storage location for keys, passwords, hashes and other secrets. 
+	
+	
+APPLocker
+	Allows administrators to define which executables can and cannot be run.
+	
+Windows firewall 
+	Built in free [[Firewall]] enabled by default, and allowed to be managed by group policy. Three different network profiles Domain, Public and private. 
+	
+Windows Internet information server (IIS)
+	Is a collection of services including HTTP, FTP, SMTP and NNTP. It important to have separate drive volumes for OS and web content, always formatted with NTFS. With the latest encryption enabled. 
+
+Remote desktop service
+	Is a graphical remote control of virtual desktops running on WIndows. 
+	Best practices 
+		-	Req Network level Authentication
+		-	Smart card
+		-	Req strong encryption 
+		-	Block access to local drives, clipboard and PnP devices. 
+		-	Disable service if not needed.
+		-	Req passphrase or short TTL for assistance invitations
+		-	Investigate Citrix as a cross-platform alternative. 
+		
+		
+CMD
+	Command-line 
+	WMIC 
+		Can be used to get or set configuration data for a very wide variety of settings. 
+		
+		Cheatsheet : 
+			[Cheatshet](https://www.sans.org/security-resources/sec560/windows_command_line_sheet_v1.pdf)
+		
+Powershell 
+	Is both a scripting language and command shell. 
+	
+Scheduling jobs 
+	Automation of tasks such as scripts. 
+	
+Windows logging 
+Windows have split the [[Log]] into different type of logs files. 
+	Logs types
+		-	Application
+		-	Security
+		-	System
+		-	Directory Service (Domain controller)
+		-	DNS Server (DNS only)
+		-	File Replication Service (Domain controllers)
+	The built-in windows event collector service is a bit like syslog on Linux, event log data is sent over SSL and it uses the Web service management protocol to either pull data from monitored system or push data from the monitored systems to the collector or both. When a monitored system is off-line, its batched -up events will be forwarded to the collector when accessible again.  
+	
+Key windows protocol
+	-	SBM : TCP/139/445
+	-	RPC	:	TCP/135
+	-	LDAP :	TCP/389/636/3268/3269
+	-	Kerberos : TCP/UDP/88
+	-	DNS : UDP/TCP/53
+	-	RDP : TCP/3389
+	-	SQL TCP/UDP/1433/1434
+	-	Netbios: TCP/UDP/137, UDP/138, TCP/139, TCP/UDP/1512, TCP/42
+	-	IPSec : UDP/500/4500 for IKE, protocols 50 and 51 for ESP and AH
+	
+	

@@ -19,3 +19,24 @@ Evidence
 		 
 Handling evidence using [[Chain of custody]]
 	 	
+		
+Forensic snapshots 
+	For mission critical internal servers and serves exposed to the internet, your efforts also should include creating periodic system snapshots. It a collection of data that documents the configuration and running state of the machine at a point in time. Its purpose is to provide a baseline against which later snapshot can be compared in order to detect changes. Presumably, we have a before snapshot, when we assume the machine is working fine and no been compromised , and an after snapshot, taken after problems began or after a suspected compromise or just because it's time for another audit. The before and after snapshots can be compared so that only the differences are listed. This process is useful for troubleshooting, but we mainly wish to use these snapshots to detect intrusions, to know how our adversaries have modified our systems, and provide forensics evidence that might be admissible in court of law.
+	Contents
+		-	File hashes 
+		-	User Accounts
+		-	Group
+		-	Shared folders
+		-	Account polices
+		-	Processes
+		-	Device Drivers
+		-	Service settings
+		-	Network configuration
+		-	Listening Ports 
+		-	Environmental variables
+		-	Registry
+		-	NTFS DACLs
+		-	IIS configuration 
+	Bat script tools for producing snapshot. 
+	[Snapshot](https://gist.github.com/MSAdministrator/502f13e34b689fc9621e5df05afd8341)	
+	

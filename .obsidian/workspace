@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows.md",
+            "file": "Digital Forensics.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "forensic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows.md",
+                "file": "Digital Forensics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Digital Forensics.md",
     "Windows.md",
+    "Log.md",
+    "Untitled.md",
+    "IPSec.md",
     "AD.md",
     "GPO.md",
-    "Untitled.md",
     "OSINT.md",
     "Wifi 802.11.md",
-    "Bluetooth.md",
-    "Nessus.md",
-    "Network.md",
-    "WAN.md"
+    "Bluetooth.md"
   ]
 }
