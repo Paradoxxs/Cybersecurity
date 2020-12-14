@@ -131,9 +131,11 @@ CMD
 Powershell 
 	Is both a scripting language and command shell. 
 	
+
 Scheduling jobs 
 	Automation of tasks such as scripts. 
-	
+^schedule
+
 Windows logging 
 Windows have split the [[Log]] into different type of logs files. 
 	Logs types
@@ -155,5 +157,3 @@ Key windows protocol
 	-	SQL TCP/UDP/1433/1434
 	-	Netbios: TCP/UDP/137, UDP/138, TCP/139, TCP/UDP/1512, TCP/42
 	-	IPSec : UDP/500/4500 for IKE, protocols 50 and 51 for ESP and AH
-	
-	

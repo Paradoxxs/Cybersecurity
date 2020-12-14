@@ -7,4 +7,5 @@ Many operating systems, software frameworks and programs include a logging syste
 When it comes to what to log, try to limit the scope as much as possible without missing the data, that really needed. The more you log, the slower the machine will run, and the quicker the log file will grow. 
 
 Log consolidation 
-	Is the process of consolidating log data into a central database
+	Is the process of consolidating log data into a central database.
+	in any environment that has multiple machines, centralized logging should be put in place. It simplify the administrator of logs, protects against log wiping, some of the downfalls of centralized logging is the possibility of [[DOS]] attacks, the need for disk storage and all sensitive information storage in one place. 
