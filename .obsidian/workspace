@@ -6,22 +6,11 @@
       {
         "id": "e320f63d849f4075",
         "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Linux.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "cead75928f645293",
-        "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows.md",
+            "file": "MS-500.md",
             "mode": "source"
           }
         }
@@ -51,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SE",
+                "query": "MS-500",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows.md",
+                "file": "MS-500.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "MS-500.md",
     "Windows.md",
+    "Untitled.md",
+    "Untitled 1.md",
     "Linux.md",
     "snort.md",
     "Patch management.md",
     "Log.md",
     "Digital Forensics.md",
-    "Untitled.md",
-    "IPSec.md",
-    "AD.md",
-    "GPO.md"
+    "IPSec.md"
   ]
 }
