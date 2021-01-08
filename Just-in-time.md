@@ -1,0 +1,1 @@
+Just-in-time is a role control implemented in Azure to give user privilege roles in a limit period of time. 

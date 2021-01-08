@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MS-500",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "47a348a6914475ff",
@@ -88,14 +89,14 @@
   },
   "lastOpenFiles": [
     "MS-500.md",
+    "Authentication.md",
+    "Just-in-time.md",
+    "anti-virus.md",
     "Windows.md",
     "Untitled.md",
     "Untitled 1.md",
     "Linux.md",
     "snort.md",
-    "Patch management.md",
-    "Log.md",
-    "Digital Forensics.md",
-    "IPSec.md"
+    "Patch management.md"
   ]
 }
