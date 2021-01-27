@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MS-500.md",
+            "file": "Windows.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dhcp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -54,8 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "47a348a6914475ff",
@@ -71,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MS-500.md",
+                "file": "Windows.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Windows.md",
     "MS-500.md",
+    "MS-500Ca.md",
     "Authentication.md",
     "Just-in-time.md",
     "anti-virus.md",
-    "Windows.md",
     "Untitled.md",
     "Untitled 1.md",
     "Linux.md",
-    "snort.md",
-    "Patch management.md"
+    "snort.md"
   ]
 }

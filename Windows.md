@@ -74,6 +74,21 @@ PEDump displays the data structure of portable executable. allowing the user to 
 Secure boot 
 	With Unified extensible firmware interface (UEFI) firmware module in the motherboard, it checks the digital signature of all boot-up binaries and the firmware itself and load anti-virus drivers as soon as possible. The intention is to detect malware like bootkits. It does not require a trusted platform module or BitLocker drive. 
 	
+	
+Bitlocker 
+Windows tools for encrypting the whole drive or only the part with data stored on. 
+Unlocking of bitlocker devices can happen in multiple ways, with windows 7 an pin was used to unlock the drive, with windows 10 sso is now possible allowing the user to unlock the hard drive and login at the same time. Another option is Configure Network Unlock which will contact [[DHCP]] server to unlock the hard drive. ensuring the device can not leave the cooperation network. 
+
+Early Launch Anti-Malware
+	Loads all boot driver and check if they are part of the trusted drivers, if not then they wont be loaded. 
+	
+Measured Boot
+	Windows 10 allows for measured boot, which allows a server to verify the integrity of the boot process 
+	-	The machine  UEFI firmware, stored hash in the TPM of bootloader and boot driver and everything before the anti malware software. 
+	-	The machine contact the trusted attestation server  and the server returns with a unique client key. 
+	-	The machine uses the key to sign the logs 
+	-	The log get send to the server for evaluation of the machine health. 
+	
 Workgroups
 	Stand-alone computer with local account only. 
 	
