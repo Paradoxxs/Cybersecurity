@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Windows.md",
+            "file": "MS-500.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dhcp",
+                "query": "ms-500",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows.md",
+                "file": "MS-500.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +87,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Windows.md",
     "MS-500.md",
+    "Windows.md",
     "MS-500Ca.md",
     "Authentication.md",
     "Just-in-time.md",
