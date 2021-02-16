@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "e320f63d849f4075",
+        "id": "4c8b8d21a757dc9d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "MS-500.md",
+            "file": "Privilege escalation.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ms-500",
+                "query": "privilege escalation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MS-500.md",
+                "file": "Privilege escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Privilege escalation.md",
+    "Linux.md",
+    "Privilege escalation^linux.md",
+    "Exploit.md",
     "MS-500.md",
+    "CIA triad.md",
+    "DNS.md",
     "Windows.md",
     "MS-500Ca.md",
-    "Authentication.md",
-    "Just-in-time.md",
-    "anti-virus.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Linux.md",
-    "snort.md"
+    "Authentication.md"
   ]
 }
