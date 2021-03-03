@@ -1,0 +1,1 @@
+Streams of data that contain information about the different threats and threat actors. They provide both context and specificity that helps analysts research and identify potential threats.

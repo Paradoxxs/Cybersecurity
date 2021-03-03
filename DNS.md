@@ -13,3 +13,5 @@ Security
  -	split DNS
 
 DNS cache poisoning attacks involve returning extra data along with the query result. This extra data constrain invalid information which on vulnerable DNS servers will be written to the DNS cache. This will result in any traffic could be redirected. 
+
+If the DNS is down, the machine will sent out a DNS boardcast messages allowing any machines to response with an IP address. 

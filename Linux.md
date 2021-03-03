@@ -141,3 +141,20 @@ Upgrade shell :
 	
  [[Privilege escalation#^ebeddb]]
 		
+### Logs 
+Linux uses Syslog itself is the protocol used to transport messages from network devices to a server that logs them. The log files on a syslog server are the main source of information about the operation and performance of network devices and other resources and are frequently used to identify and debug issues.
+
+
+### command 
+using & at the end of the command allow you to execute additional commands. 
+fx python -m SimpleHTTPServer 8000 &
+
+ps -ef | grep <pid>
+	You can find the pid value next to the suspicious connection under the Process column. Use that pid to identify the process with ps -ef
+	
+### cheatsheet 
+	https://wiki.sans.blue/Tools/pdfs/LinuxCLI101.pdf
+	https://wiki.sans.blue/Tools/pdfs/LinuxCLI.pdf
+	https://digital-forensics.sans.org/media/linux-shell-survival-guide.pdf?msc=Cheat+Sheet+Blog
+	https://assets.contentstack.io/v3/assets/blt36c2e63521272fdc/blta6a2ae64ec0ed535/5eb08aaeead3926127b4df44/SMB-Access-from-Linux.pdf
+	https://digital-forensics.sans.org/media/remnux-malware-analysis-tips.pdf?msc=Cheat+Sheet+Blog

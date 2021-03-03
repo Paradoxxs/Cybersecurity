@@ -4,15 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "4c8b8d21a757dc9d",
+        "id": "cfbcca840079c222",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Privilege escalation.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +37,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "privilege escalation",
+                "query": "uba",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Privilege escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +83,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Privilege escalation.md",
-    "Linux.md",
-    "Privilege escalation^linux.md",
-    "Exploit.md",
-    "MS-500.md",
-    "CIA triad.md",
+    "UBA.md",
+    "EDR.md",
+    "Untitled.md",
+    "Defense in depth.md",
+    "RITA.md",
+    "Mitre Att&ck.md",
     "DNS.md",
-    "Windows.md",
-    "MS-500Ca.md",
-    "Authentication.md"
+    "Hashcat.md",
+    "Biometrics.md",
+    "Linux.md"
   ]
 }

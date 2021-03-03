@@ -1,0 +1,2 @@
+Threat Intelligence Platform
+Tools that help SOCs to collect and aggregate the multiple threat intelligence feeds with which the analysts work. The threat intel feeds are typically fed into the TIP through CSV, XLM or JSON files. STIX/TAXII are two of the standards that dictate what type of intelligence the feed provides and how the information in the feed is relayed to the TIP respectively.

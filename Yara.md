@@ -1,0 +1,1 @@
+Yara is a set of rules which describe something (e.g. malware) based on patterns in files 

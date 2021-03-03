@@ -1,0 +1,1 @@
+High-level threat actor with access to significant resources, usually focused on achieving specific objectives. Often associated with nation-states and tasked to carry out cyber espionage or cyber warfare

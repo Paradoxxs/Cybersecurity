@@ -3,7 +3,7 @@ Is the concept of layered defense
 
 What is defense in depth
 	Security with multiple solutions tired together to accomplish a goal. There is no single security solution that can secure a organization. because any single system can be bypassed. 
-	Defense in depth is a design philosophy the idea comes from software have flaws, misconfiguration happens and hardware failure, to compensate for these events, we similar do not relay on a single system of protection. instead we deploy multiple layers of protection to account for the possibility that one will fail. 
+	Defense in depth is a design philosophy the idea comes from software have flaws, misconfiguration happens and hardware failure, to compensate for these events, we similar do not relay on a single system of protection. instead we deploy multiple layers of protection to account for the possibility that one will fail, It important that they overlap and cooperate each other. Having them separated the hacker can bypass them one by one.  
 
 Security is [[Risk mangement]] to assets. Risk is the probability of a threat occurring 
 *Threats x Vulnerability = risk*
