@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "SSH.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -37,8 +40,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "uba",
-                "matchingCase": false,
+                "query": "linux",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -67,6 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "SSH.md",
+    "Linux.md",
+    "SSH^.md",
+    "Untitled.md",
+    "Metasploit.md",
     "UBA.md",
     "EDR.md",
-    "Untitled.md",
     "Defense in depth.md",
     "RITA.md",
-    "Mitre Att&ck.md",
-    "DNS.md",
-    "Hashcat.md",
-    "Biometrics.md",
-    "Linux.md"
+    "Mitre Att&ck.md"
   ]
 }

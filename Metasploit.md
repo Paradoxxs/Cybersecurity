@@ -44,5 +44,10 @@ Import data from [[Vulnerability Scanning]]
 		- [[Nessus]]
 		
 		 ^998485
-
+import module from exploit_db 
+download the module to the folder 
+/root/.msf4/modules/
+msfdb reinit to restart the database 
+start msfconsole 
+search for the new exploit
 	

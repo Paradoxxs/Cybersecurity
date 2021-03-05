@@ -12,7 +12,9 @@ Unix system boot
 	-	Initial processes (init)
 	-	Init run system start-up scripts
 	
-
+[[SSH]]
+Is the most common way to interact with a linux with remote command tools 
+[[SSH#^134d5d]]
 
 The key elements of Unix
 	-	Kernel : Memory resident part of the operating system, is the most important part of the Unix or any OS without kernel the OS does not function. It responsible for instructions to hardware and software. Kernel is loaded into memory at boot up. This allows faster interaction between all components. It must have a dedicated space in memory to reside without shifting. 
