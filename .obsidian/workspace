@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SSH.md",
+            "file": "Metasploit.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "metasploit",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SSH.md",
+                "file": "Metasploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "SSH.md",
-    "Linux.md",
-    "SSH^.md",
-    "Untitled.md",
     "Metasploit.md",
-    "UBA.md",
-    "EDR.md",
-    "Defense in depth.md",
-    "RITA.md",
-    "Mitre Att&ck.md"
+    "Windows.md",
+    "Ghost writing.md",
+    "OllyDbg.md",
+    "NIDS.md",
+    "Linux.md",
+    "Assembly.md",
+    "anti-virus.md",
+    "Assemby.md",
+    "Untitled 2.md"
   ]
 }

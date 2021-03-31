@@ -1,0 +1,1 @@
+Azure sentinel is microsoft [[SIEM]] solution 
