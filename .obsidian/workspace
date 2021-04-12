@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Metasploit.md",
+            "file": "Digital Forensics.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "metasploit",
+                "query": "digital doe",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metasploit.md",
+                "file": "Digital Forensics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Metasploit.md",
+    "Digital Forensics.md",
+    "Strings.md",
+    "Imphash.md",
+    "Tshark.md",
+    "Untitled 2.md",
     "Windows.md",
-    "Ghost writing.md",
-    "OllyDbg.md",
-    "NIDS.md",
-    "Linux.md",
-    "Assembly.md",
-    "anti-virus.md",
-    "Assemby.md",
-    "Untitled 2.md"
+    "volatility.md",
+    "memory.md",
+    "Metasploit.md",
+    "Ghost writing.md"
   ]
 }

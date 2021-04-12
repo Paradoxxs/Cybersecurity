@@ -5,6 +5,9 @@ Windows has two access modes
 	
 	
 ### Memory
+
+^0d4da0
+
 	PE/CONFF utilize import address table (IAT) and export address table (EAT) the IAT holds symbols that require resolution upon program runtime and EAT make available functions local to the program or library that may be used by other executable files.
 	Windows API is the interface used to provide access to system resources. Functions are grouped together into [[DLL]]. And are used for everything involving OS. 
 	Exploit mitigation controls. 
@@ -182,14 +185,18 @@ Stands for Microsoft register server. it's used to register and unregister objec
 
 ### Windows logging 
 Windows have split the [[Log]] into different type of logs files. 
-	Logs types
-		-	Application
-		-	Security
-		-	System
-		-	Directory Service (Domain controller)
-		-	DNS Server (DNS only)
-		-	File Replication Service (Domain controllers)
-	The built-in windows event collector service is a bit like syslog on Linux, event log data is sent over SSL and it uses the Web service management protocol to either pull data from monitored system or push data from the monitored systems to the collector or both. When a monitored system is off-line, its batched -up events will be forwarded to the collector when accessible again.  
+Logs types
+	-	Application
+	-	Security
+	-	System
+	-	Directory Service (Domain controller)
+	-	DNS Server (DNS only)
+	-	File Replication Service (Domain controllers)
+The built-in windows event collector service is a bit like syslog on Linux, event log data is sent over SSL and it uses the Web service management protocol to either pull data from monitored system or push data from the monitored systems to the collector or both. When a monitored system is off-line, its batched -up events will be forwarded to the collector when accessible again.
+	
+### Sysmon 
+System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log. It provides detailed information about process creations, network connections, and changes to file creation time. By collecting the events it generates using [Windows Event Collection](https://msdn.microsoft.com/library/windows/desktop/bb427443(v=vs.85).aspx) or [SIEM](https://en.wikipedia.org/wiki/security_information_and_event_management) agents and subsequently analyzing them, you can identify malicious or anomalous activity and understand how intruders and malware operate on your network.
+^Sysmon
 	
 ### Key windows protocol
 	-	SBM : TCP/139/445
