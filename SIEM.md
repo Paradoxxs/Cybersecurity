@@ -1,6 +1,6 @@
 Security information and event management are where all the [[Log]] data is centralized into one place to be crosse xamen.
 
-An example of a [[SIEM]] would be elastic with [[Kibana]] with [[Elasticsearch]] as its database engine. Another example of SIEM is [[Splunk]].
+An example of a [[SIEM]] would be elastic with [[ELK]] with [[Elasticsearch]] as its database engine. Another example of SIEM is [[Splunk]].
 
 [[Agent]] or Agent-less?
 	When deploying a SIEM we need to retrieve the log data from the servers and endpoint.

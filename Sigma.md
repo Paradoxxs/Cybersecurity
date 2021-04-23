@@ -12,7 +12,7 @@ Convert a whole rule directory with `python sigmac -t splunk -r ../rules/proxy/`
 
 Currently sigma support these platforms: 
 [[Splunk]]
-[[Kibana]]
+[[ELK]]
 [[Elasticsearch]]
 [[Logpoint]]
 [[Microsoft defender ATP]]

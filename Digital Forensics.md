@@ -53,7 +53,9 @@ Malware office files frequently comes in form of visual basic macro or excel 4.0
 
 
 #### Behavior extraction 
-Behavior extraction is the method of executing the malware and analyzing how what it behavior is. 
+Behavior extraction is the method of executing the malware and analyzing how what it behavior it doing inside a sandbox. 
+
+
 ### Forensic procedures 
 #### Executable Behavior extraction 
 WIth the executable in hand, isolating it in a sandbox and executing it there and analyzing the log files of the system is a quick way to get an understanding of the procedure of the malware and what it does and in what order. 

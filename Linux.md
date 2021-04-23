@@ -147,9 +147,18 @@ Upgrade shell :
 Linux uses Syslog itself is the protocol used to transport messages from network devices to a server that logs them. The log files on a syslog server are the main source of information about the operation and performance of network devices and other resources and are frequently used to identify and debug issues.
 
 
-### command 
+### CLI 
 using & at the end of the command allow you to execute additional commands. 
 fx python -m SimpleHTTPServer 8000 &
+
+#### Sudo
+**sudo** can be used with additional options:
+
+-   **-h** – help; displays syntax and command options
+-   **-V** – version; displays the current version of the sudo application
+-   **-v** – validate; refresh the time limit on sudo without running a command
+-   **-l** – list; lists the user’s privileges, or checks a specific command
+-   **-k** – kill; end the current sudo privileges
 
 ps -ef | grep <pid>
 	You can find the pid value next to the suspicious connection under the Process column. Use that pid to identify the process with ps -ef

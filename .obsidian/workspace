@@ -6,11 +6,10 @@
       {
         "id": "cfbcca840079c222",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Digital Forensics.md",
+            "file": "Linux.md",
             "mode": "source"
           }
         }
@@ -40,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "digital doe",
+                "query": "linux",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,10 +69,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital Forensics.md",
+                "file": "Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -86,16 +87,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "cfbcca840079c222",
   "lastOpenFiles": [
-    "Digital Forensics.md",
-    "Strings.md",
-    "Imphash.md",
-    "Tshark.md",
+    "Linux.md",
+    "Kibana.md",
+    "SIEM.md",
+    "Hashcat.md",
+    "Zeek/Bro.md",
+    "RITA.md",
     "Untitled 2.md",
-    "Windows.md",
-    "volatility.md",
-    "memory.md",
-    "Metasploit.md",
-    "Ghost writing.md"
+    "Threat hunting.md",
+    "Digital Forensics.md",
+    "Strings.md"
   ]
 }
