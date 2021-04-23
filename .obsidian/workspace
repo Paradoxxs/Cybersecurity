@@ -90,6 +90,7 @@
   "active": "cfbcca840079c222",
   "lastOpenFiles": [
     "Linux.md",
+    "Windows.md",
     "Kibana.md",
     "SIEM.md",
     "Hashcat.md",
@@ -97,7 +98,6 @@
     "RITA.md",
     "Untitled 2.md",
     "Threat hunting.md",
-    "Digital Forensics.md",
-    "Strings.md"
+    "Digital Forensics.md"
   ]
 }

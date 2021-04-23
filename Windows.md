@@ -8,50 +8,50 @@ Windows has two access modes
 
 ^0d4da0
 
-	PE/CONFF utilize import address table (IAT) and export address table (EAT) the IAT holds symbols that require resolution upon program runtime and EAT make available functions local to the program or library that may be used by other executable files.
-	Windows API is the interface used to provide access to system resources. Functions are grouped together into [[DLL]]. And are used for everything involving OS. 
-	Exploit mitigation controls. 
-		Application opt-in control 
-			-	ASLR 
-			-	DEP (Data Execution Prevention)
-		OS controls
-			-	ASLR
-			-	Hardware DEP
-		Compile-Time controls
-			- Security cookies (canaries)
-			-	application ASLR
-			-	SafeSEH
-		Controls
-			SafeSEH builds a table of trusted exception handlers during compile-time 
-			99% of windows DLLs on win 7 is compiled with SafeSEH, the problem comes with third party are not compiled with SafeSEH
-			GS security check 
-				pushes 32-bit security cookie onto the stack to protect return addresses. 
-			Heap cookies 
-				8-bit in lenght (256 possibilities)
-			Safe unlinking 
-				combined with cookies and REB randomization. 
-			Low Fragmentation heap 
-			 - 32-bit cookie
-			ASLR
-				- Randomizes the image load address once per boot 
-					256 locations possibility 
-					64K aligned 
-				-	PEB is randomized separately
-			EMET 
-				Greatly increases the difficulty of exploit a vulnerability 
-			Thread information block (TIB) or Thread environment block (TEB)
-				They are synonymous, the TIB is structure of data that stores information about the current thread, and every thread has one. 
-			Structured exception handling (SEH)
-				The pointer stored inside the TIB points that is part of a linked list of exception handlers and structures if an exception occurs within a program, the windows OS will use a callback function to allow the program the chance to handle the exception. If the program do not handle the exception the default handler will pick up the exception and terminate the program. 
-				^Memory
+PE/CONFF utilize import address table (IAT) and export address table (EAT) the IAT holds symbols that require resolution upon program runtime and EAT make available functions local to the program or library that may be used by other executable files.
+Windows API is the interface used to provide access to system resources. Functions are grouped together into [[DLL]]. And are used for everything involving OS. 
+Exploit mitigation controls. 
+	Application opt-in control 
+		-	ASLR 
+		-	DEP (Data Execution Prevention)
+	OS controls
+		-	ASLR
+		-	Hardware DEP
+	Compile-Time controls
+		- Security cookies (canaries)
+		-	application ASLR
+		-	SafeSEH
+	Controls
+		SafeSEH builds a table of trusted exception handlers during compile-time 
+		99% of windows DLLs on win 7 is compiled with SafeSEH, the problem comes with third party are not compiled with SafeSEH
+		GS security check 
+			pushes 32-bit security cookie onto the stack to protect return addresses. 
+		Heap cookies 
+			8-bit in lenght (256 possibilities)
+		Safe unlinking 
+			combined with cookies and REB randomization. 
+		Low Fragmentation heap 
+		 - 32-bit cookie
+		ASLR
+			- Randomizes the image load address once per boot 
+				256 locations possibility 
+				64K aligned 
+			-	PEB is randomized separately
+		EMET 
+			Greatly increases the difficulty of exploit a vulnerability 
+		Thread information block (TIB) or Thread environment block (TEB)
+			They are synonymous, the TIB is structure of data that stores information about the current thread, and every thread has one. 
+		Structured exception handling (SEH)
+			The pointer stored inside the TIB points that is part of a linked list of exception handlers and structures if an exception occurs within a program, the windows OS will use a callback function to allow the program the chance to handle the exception. If the program do not handle the exception the default handler will pick up the exception and terminate the program. 
+			^Memory
 
 
 
 ### WOW64
-	Collection of DDL that run within 32 bit process, that emulate the requirements for the 32 bit application. DLL such as WoW64.dll run within the 32 bit process to intercept and translate calls. 32 bit DLL are loaded into the application as needed to support functionality. 
+Collection of DDL that run within 32 bit process, that emulate the requirements for the 32 bit application. DLL such as WoW64.dll run within the 32 bit process to intercept and translate calls. 32 bit DLL are loaded into the application as needed to support functionality. 
 
 ### Process environment block
-	Structure data in a processes user address space that holds information about the process. This information includes items such as the base address of the loaded module the start of the heap , imported DLLs.
+Structure data in a processes user address space that holds information about the process. This information includes items such as the base address of the loaded module the start of the heap , imported DLLs.
 
 ### Windows Shellcode 
 Is used in the same way as on [[Linux#^Shellcode]] spawning a shell, adding account, command execution and practical anything else. Shell on windows have more optaions as it allow DLL injection and installation control software. Shell code is only good for the processor architecture for which it was written for. One of the biggest challenges of writhing shellcode on windows is determining the location of the desired function within the OS. unlike Linux where system calls and function are static between version. On windows it constantly changing.
@@ -78,7 +78,7 @@ is an debugger tool based on OllyDbg, supporting python script . A benefit of us
 displays the data structure of portable executable. allowing the user to view all headers iwthin the PE file and the section tables, contents RVA infomration, symbol table, relocation information and etc. 
 
 ### Secure boot 
-	With Unified extensible firmware interface (UEFI) firmware module in the motherboard, it checks the digital signature of all boot-up binaries and the firmware itself and load anti-virus drivers as soon as possible. The intention is to detect malware like bootkits. It does not require a trusted platform module or BitLocker drive. 
+With Unified extensible firmware interface (UEFI) firmware module in the motherboard, it checks the digital signature of all boot-up binaries and the firmware itself and load anti-virus drivers as soon as possible. The intention is to detect malware like bootkits. It does not require a trusted platform module or BitLocker drive. 
 	
 	
 ### Bitlocker 
@@ -86,60 +86,60 @@ Windows tools for encrypting the whole drive or only the part with data stored o
 Unlocking of bitlocker devices can happen in multiple ways, with windows 7 an pin was used to unlock the drive, with windows 10 sso is now possible allowing the user to unlock the hard drive and login at the same time. Another option is Configure Network Unlock which will contact [[DHCP]] server to unlock the hard drive. ensuring the device can not leave the cooperation network. 
 
 ### Early Launch Anti-Malware
-	Loads all boot driver and check if they are part of the trusted drivers, if not then they wont be loaded. 
+Loads all boot driver and check if they are part of the trusted drivers, if not then they wont be loaded. 
 	
 ### Measured Boot
-	Windows 10 allows for measured boot, which allows a server to verify the integrity of the boot process 
-	-	The machine  UEFI firmware, stored hash in the TPM of bootloader and boot driver and everything before the anti malware software. 
-	-	The machine contact the trusted attestation server  and the server returns with a unique client key. 
-	-	The machine uses the key to sign the logs 
-	-	The log get send to the server for evaluation of the machine health. 
+Windows 10 allows for measured boot, which allows a server to verify the integrity of the boot process 
+-	The machine  UEFI firmware, stored hash in the TPM of bootloader and boot driver and everything before the anti malware software. 
+-	The machine contact the trusted attestation server  and the server returns with a unique client key. 
+-	The machine uses the key to sign the logs 
+-	The log get send to the server for evaluation of the machine health. 
 	
 ### Workgroups
-	Stand-alone computer with local account only. 
+Stand-alone computer with local account only. 
 	
 	
 ### Active directory 
-	Windows can use [[AD]] to manage multiple computers and users
+Windows can use [[AD]] to manage multiple computers and users
 	
 ### Windows server update service [[WSUS]]
 
 ### NTFS 
-	Windows NT file system should be used on every hard drive. 
-	Advanced security settings is used to create access control rules for folder and files 
+Windows NT file system should be used on every hard drive. 
+Advanced security settings is used to create access control rules for folder and files 
 	
 	
 ### Registry 
-	All configuration settings for the computer hardware, OS, applications and users are stored in database called registry. The registry can be modified directly using scripts, command line or regedit GUI tool
+All configuration settings for the computer hardware, OS, applications and users are stored in database called registry. The registry can be modified directly using scripts, command line or regedit GUI tool
 	
 ### Bitlocker 
-	Is method of disk encryption using AES, and boot-up integrity check with TPM 
+Is method of disk encryption using AES, and boot-up integrity check with TPM 
 	
 	
 ### TPM 
-	Trusted platform module is a chip built into the motherboard of a computer which can perform on-board random number generation, encryption, hashing and other cryptographic operations. The TPM is also a secure storage location for keys, passwords, hashes and other secrets. 
+Trusted platform module is a chip built into the motherboard of a computer which can perform on-board random number generation, encryption, hashing and other cryptographic operations. The TPM is also a secure storage location for keys, passwords, hashes and other secrets. 
 	
 	
 ### APPLocker
-	Allows administrators to define which executables can and cannot be run.
-	The default rules of applocker only allows the user to execute program from protected files, windows, program files and program files (x86)
+Allows administrators to define which executables can and cannot be run.
+The default rules of applocker only allows the user to execute program from protected files, windows, program files and program files (x86)
 	
 ### Windows firewall 
-	Built in free [[Firewall]] enabled by default, and allowed to be managed by group policy. Three different network profiles Domain, Public and private. 
-	
+Built in free [[Firewall]] enabled by default, and allowed to be managed by group policy. Three different network profiles Domain, Public and private. 
+
 ### Windows Internet information server (IIS)
-	Is a collection of services including HTTP, FTP, SMTP and NNTP. It important to have separate drive volumes for OS and web content, always formatted with NTFS. With the latest encryption enabled. 
+Is a collection of services including HTTP, FTP, SMTP and NNTP. It important to have separate drive volumes for OS and web content, always formatted with NTFS. With the latest encryption enabled. 
 
 ### Remote desktop service
-	Is a graphical remote control of virtual desktops running on WIndows. 
-	Best practices 
-		-	Req Network level Authentication
-		-	Smart card
-		-	Req strong encryption 
-		-	Block access to local drives, clipboard and PnP devices. 
-		-	Disable service if not needed.
-		-	Req passphrase or short TTL for assistance invitations
-		-	Investigate Citrix as a cross-platform alternative. 
+Is a graphical remote control of virtual desktops running on WIndows. 
+Best practices 
+	-	Req Network level Authentication
+	-	Smart card
+	-	Req strong encryption 
+	-	Block access to local drives, clipboard and PnP devices. 
+	-	Disable service if not needed.
+	-	Req passphrase or short TTL for assistance invitations
+	-	Investigate Citrix as a cross-platform alternative. 
 		
 		
 ### CMD
@@ -168,6 +168,10 @@ allows for archinves one or more files.
 
 #### Where 
 Same command as in linux. 
+
+#### tasklist
+list the current task / process 
+-m allows you to list the dll the process has loaded. 
 
 #### regsrv32
 Stands for Microsoft register server. it's used to register and unregister object linking and embedding controls like dll files and OCX files. by using the command regsrv32 -s <file name of the dll to be loaded> will tells windows in load that specific dll file. This can be easily be exploited by having the system load an dll with malware in it. 
