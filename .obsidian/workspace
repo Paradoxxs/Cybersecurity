@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux.md",
+            "file": "CIS.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": "CIS",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux.md",
+                "file": "CIS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "cfbcca840079c222",
   "lastOpenFiles": [
+    "CIS.md",
+    "Troupleshooting.md",
+    "Untitled 2.md",
+    "phishing.md",
+    "Gophish.md",
+    "Digital Forensics.md",
+    "Scdbg.md",
     "Linux.md",
     "Windows.md",
-    "Kibana.md",
-    "SIEM.md",
-    "Hashcat.md",
-    "Zeek/Bro.md",
-    "RITA.md",
-    "Untitled 2.md",
-    "Threat hunting.md",
-    "Digital Forensics.md"
+    "Kibana.md"
   ]
 }
