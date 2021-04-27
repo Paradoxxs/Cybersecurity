@@ -8,5 +8,6 @@ This is what a IPv4 look like in it bit form.
 ## reversed IP 
 Reserved private network address 
 	-	10.0.0.0 -> 10.255.255.255
-	-	127.16.0.0 -> 172.31.255.255
+	-	127.0.0.0 -> 127.255.255.255 #host
 	-	192.168.0.0 -> 192.168.255.255
+	-	172.16.0.0 -> 172.31.255.255

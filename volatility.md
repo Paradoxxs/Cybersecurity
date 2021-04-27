@@ -35,6 +35,7 @@ List the network connection that in the memory
 #### yarascan
 will scan for pattern that your give it, can be everything. 
 Scanning for MZ allows you to search for executable
+
 #### dllist
 List the dll uses by the process. 
 

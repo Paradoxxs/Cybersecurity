@@ -1,4 +1,4 @@
-Security information and event management are where all the [[Log]] data is centralized into one place to be crosse xamen.
+Security information and event management are where all the [[Log]] data is centralized into one place to be cross examine.
 
 An example of a [[SIEM]] would be elastic with [[ELK]] with [[Elasticsearch]] as its database engine. Another example of SIEM is [[Splunk]].
 

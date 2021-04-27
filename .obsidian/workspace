@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TCP.md",
+            "file": "SIEM.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "udp",
+                "query": "siem",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCP.md",
+                "file": "SIEM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "cfbcca840079c222",
   "lastOpenFiles": [
+    "SIEM.md",
+    "IPv4.md",
+    "volatility.md",
+    "Windows.md",
     "TCP.md",
     "Tcpick.md",
     "TCPDump.md",
     "TCP-IP.md",
     "Suricata.md",
-    "Asymmetric encryption.md",
-    "IPv4.md",
-    "NAT.md",
-    "IP.md",
-    "CIS.md"
+    "Asymmetric encryption.md"
   ]
 }
