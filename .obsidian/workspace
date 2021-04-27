@@ -9,11 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< Updated upstream
-            "file": "Docker.md",
-=======
-            "file": "IPv4.md",
->>>>>>> Stashed changes
+            "file": "TCP.md",
             "mode": "source"
           }
         }
@@ -43,11 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-<<<<<<< Updated upstream
-                "query": "docker",
-=======
-                "query": "ip",
->>>>>>> Stashed changes
+                "query": "udp",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,11 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Docker.md",
-=======
-                "file": "IPv4.md",
->>>>>>> Stashed changes
+                "file": "TCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,18 +88,15 @@
   },
   "active": "cfbcca840079c222",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "Untitled 2.md",
-=======
+    "TCP.md",
+    "Tcpick.md",
+    "TCPDump.md",
+    "TCP-IP.md",
+    "Suricata.md",
+    "Asymmetric encryption.md",
     "IPv4.md",
     "NAT.md",
     "IP.md",
->>>>>>> Stashed changes
-    "CIS.md",
-    "Troupleshooting.md",
-    "phishing.md",
-    "Gophish.md",
-    "Digital Forensics.md",
-    "Scdbg.md"
+    "CIS.md"
   ]
 }
