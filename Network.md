@@ -23,16 +23,18 @@ Asynchronous Transfer mode (ATM) before communication can be initiated an virtua
 	
  [[Network devices]] is the hardware used to establish connection. 
 
-Network design
-	Segments 
-		-	Public the resource that reside on the internet, from the perspective of company network cannot be trusted 
-		-	DMZ is our contributions to the internet in the form of Web, email DNS records. There should be a segment between DMZ and private
-		-	Private These are the company internal network, and should not be available from the internet. 
-	Using [[Defense in depth]] to protect the network. 
-	Firewall placement need to be located in a place that allows it to ensure that any outbound traffic is legitimate and inbound connections.
+## Network design
+Segments 
+	-	Public the resource that reside on the internet, from the perspective of company network cannot be trusted 
+	-	DMZ is our contributions to the internet in the form of Web, email DNS records. There should be a segment between DMZ and private
+	-	Private These are the company internal network, and should not be available from the internet. 
+Using [[Defense in depth]] to protect the network. 
+Firewall placement need to be located in a place that allows it to ensure that any outbound traffic is legitimate and inbound connections.
 	
+### MPLS
+Multiprotocol label switching (MPLS)  is data forwarding technology that increases the speed and controls the flow of network traffic. With MPLS, data is directed through a path via labels instead of requiring complex lookup in a routing table at every stop. MPLS network make it possible to tie organization network and phone solution together across multiple locations. 
 	
-Network protocol 
+## Network protocol 
 	Is the agreement or rules on how computer networks communicate with each other. 
 	Layer 4 
 		- [[UDP]] and [[TCP]] 

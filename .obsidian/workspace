@@ -9,11 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< Updated upstream
-            "file": "SIEM.md",
-=======
-            "file": "Shodan.md",
->>>>>>> Stashed changes
+            "file": "SOC.md",
             "mode": "source"
           }
         }
@@ -43,11 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-<<<<<<< Updated upstream
-                "query": "siem",
-=======
-                "query": "Shodan",
->>>>>>> Stashed changes
+                "query": "SOC",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -76,11 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "SIEM.md",
-=======
-                "file": "Shodan.md",
->>>>>>> Stashed changes
+                "file": "SOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,28 +89,15 @@
   },
   "active": "cfbcca840079c222",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-    "SIEM.md",
-    "IPv4.md",
-    "volatility.md",
-    "Windows.md",
-    "TCP.md",
-    "Tcpick.md",
-    "TCPDump.md",
-    "TCP-IP.md",
-    "Suricata.md",
-    "Asymmetric encryption.md"
-=======
+    "SOC.md",
+    "Network.md",
     "Untitled 2.md",
     "TCP.md",
-    "Network.md",
     "TCP-IP.md",
     "Docker.md",
     "CIS.md",
     "Troupleshooting.md",
     "phishing.md",
-    "Gophish.md",
-    "Digital Forensics.md"
->>>>>>> Stashed changes
+    "Gophish.md"
   ]
 }
