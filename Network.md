@@ -1,3 +1,4 @@
+# Network
 Network is segmented into difference layers, the [[OSI]] model describes this, another model is the [[TCP-IP]] These model works in a top to bottom way, adding headers as they go down in layers. 
 
 Network relies on [[IP]] to handle transmission 
