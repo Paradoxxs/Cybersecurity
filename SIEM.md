@@ -9,3 +9,5 @@ An example of a [[SIEM]] would be elastic with [[ELK]] with [[Elasticsearch]] as
 	
 Logs generates a large amount of data that could exceed SEIM load capacity. A method of dealing with this workload is using a [[Message broker]]. Allowing the SEIM to take messages once it has the capability to handle them. 
 
+
+
