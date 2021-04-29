@@ -1,0 +1,2 @@
+# Network security Monitor 
+Network monitoring is the use of a system to constantly monitoring computer network for communication with malicious [[IP]] or domains and also analyze for beacon activity, which is sign for [[C2]] traffic

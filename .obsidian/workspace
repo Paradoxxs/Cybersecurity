@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cfbcca840079c222",
+        "id": "f21773d15e98e3ba",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "SOC.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SOC",
+                "query": "OllyDbg",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +83,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cfbcca840079c222",
+  "active": "f21773d15e98e3ba",
   "lastOpenFiles": [
-    "SOC.md",
-    "Network.md",
+    "ELK.md",
+    "Sigma.md",
+    "Disassembler.md",
+    "OllyDbg.md",
+    "Scdbg.md",
     "Untitled 2.md",
-    "TCP.md",
-    "TCP-IP.md",
-    "Docker.md",
-    "CIS.md",
-    "Troupleshooting.md",
-    "phishing.md",
-    "Gophish.md"
+    "Windows.md",
+    "Immunity Debugger.md",
+    "IDA Pro.md",
+    "C2.md"
   ]
 }

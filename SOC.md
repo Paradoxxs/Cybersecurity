@@ -30,3 +30,10 @@ The main part of a analyst is the investigation elements. Eye for details and th
 -   **Threat Intelligence Platform [[TIP]]**
 -   **[[Firewall]]**: Used to monitor and control incoming and outgoing network traffic. Next generation firewalls use deep packet inspection to identify malicious traffic more accurately.
 -   **Intrusion Detection Systems [[IDS]]**: Tools for intrusion detection and prevention of network attacks, as well as physical detection tools like wireless intrusion prevention. The purpose of these solutions is to warn analysts of potential attacks (detection) and actively block potential attacks (prevention).
+
+
+## Security tool 
+How the security tool overlaps 
+[[SOC]], [[anti-virus]], [[UBEA]]/[[UBA]],[[SIEM]],[[NSM]]
+
+![[Pasted image 20210429092956.png]]
