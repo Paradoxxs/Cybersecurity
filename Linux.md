@@ -106,11 +106,22 @@ objdump used to disassemble object files.
 
 readelf, display ELF object file information
 		
-Dynamic memory 
-	Heap performing large memory allocation to hold user data or run rick content will utilize heap. Opening multiple Word documents would find the data on the heap. The heap is designed to border a large unused memory segment to allow it to grow without interfering with other memory segments . 
-	Once a program is loaded into memory, EIP holds the address for the first instruction in the code segment to start the program, also known as the program entry point. The code segment is often loaded at lower memory addresses than other segments. The data segment stores global and static variables used  by the program. With some implementations you will see other segments loaded that could potentially divide up the types of data in the data segment. The BSS segment stores uninitialized variables that may not be needed by the program, or that will remain uninitialized until they are referenced. 
-	Following the BSS segment is where the heap segment begins for example a web browser need to load an image on a page. memory must be allocated on the heap at this point in order to store the image in memory. The heap grows from lower memory addressing towards the stack segment. starting at a much higher memory address.  ^Memory
+### Dynamic memory 
+Heap performing large memory allocation to hold user data or run rick content will utilize heap. Opening multiple Word documents would find the data on the heap. The heap is designed to border a large unused memory segment to allow it to grow without interfering with other memory segments . 
+Once a program is loaded into memory, EIP holds the address for the first instruction in the code segment to start the program, also known as the program entry point. The code segment is often loaded at lower memory addresses than other segments. The data segment stores global and static variables used  by the program. With some implementations you will see other segments loaded that could potentially divide up the types of data in the data segment. The BSS segment stores uninitialized variables that may not be needed by the program, or that will remain uninitialized until they are referenced. 
+Following the BSS segment is where the heap segment begins for example a web browser need to load an image on a page. memory must be allocated on the heap at this point in order to store the image in memory. The heap grows from lower memory addressing towards the stack segment. starting at a much higher memory address.  ^Memory
 
+Linux Address space layout randomization (ASLR) 
+The primary objective of ASLR and other compile-time controls is to protect programs from being exploited by attackers. one method is to make eligible pages of memory non-writable or non-executable. 
+tool: Idd List dynamic dependencies 
+Ret to ESP 
+	jmp/call esp
+ret to exa
+	jmp/call exa
+ret to ret
+	return repeatedly down the stack
+ret to ptr
+	registers hold addresses on the stack we can control 
 
 ## Shellcode 
 It primarily used to spawn a shell. Shellcode is usually written in assembly and then assembled into machine code by tools such as netwide assembler. Nowadays it used to thing under the right of the program being compromised. A common usage of shellcode is to bind a shell listening port on the system, add user, dll injection. 
@@ -124,17 +135,6 @@ Terminator canary
 Random Canary
 Null Canary 
 
-Linux Address space layout randomization (ASLR) 
-The primary objective of ASLR and other compile-time controls is to protect programs from being exploited by attackers. one method is to make eligible pages of memory non-writable or non-executable. 
-tool: Idd List dynamic dependencies 
-Ret to ESP 
-	jmp/call esp
-ret to exa
-	jmp/call exa
-ret to ret
-	return repeatedly down the stack
-ret to ptr
-	registers hold addresses on the stack we can control 
 	
 Upgrade shell : 
 	python3 -c "import pty; pty.spawn('/bin/bash')" (check what version of python is installed or install python)
@@ -147,14 +147,23 @@ Upgrade shell :
 Linux uses Syslog itself is the protocol used to transport messages from network devices to a server that logs them. The log files on a syslog server are the main source of information about the operation and performance of network devices and other resources and are frequently used to identify and debug issues.
 
 ## File
-
 In the above command we are creating a netcat listener that forwards all input through a backpipe and then into a bash session. It then takes the output of the bash session and puts it back into the netcat listener.
 
-### CLI 
+## Terminal 
 using & at the end of the command allow you to execute additional commands. 
 fx python -m SimpleHTTPServer 8000 &
 
-#### Sudo
+### tip and tricks 
+
+| allows you append command to another one cat /etc/shadow | grep root
+
+& allow you to continue to  use terminal e.g python -m http.server &
+
+> write text to file 
+
+>> append text to file
+
+### Sudo
 **sudo** can be used with additional options:
 
 -   **-h** – help; displays syntax and command options
@@ -166,13 +175,13 @@ fx python -m SimpleHTTPServer 8000 &
 ps -ef | grep <pid>
 	You can find the pid value next to the suspicious connection under the Process column. Use that pid to identify the process with ps -ef
 	
-#### strings	
-	Want to see the text inside a binary or data file?  The Linux `strings` command pulls those bits of text—called “strings”—out for you.
+### strings	
+Want to see the text inside a binary or data file?  The Linux `strings` command pulls those bits of text—called “strings”—out for you.
+
+### Fish
+[doc](https://fishshell.com/)
 	
-#### Fish
-	[doc](https://fishshell.com/)
-	
-#### fifo backdoor
+### fifo backdoor
 first in first out
 We will next need to create a fifo backpipe:
 ```Bash

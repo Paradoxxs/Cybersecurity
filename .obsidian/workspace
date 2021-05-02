@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Incident Handling.md",
+            "file": "Linux.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "incident response",
+                "query": "linux",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Incident Handling.md",
+                "file": "Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "f21773d15e98e3ba",
   "lastOpenFiles": [
+    "Linux.md",
+    "SSH.md",
     "Incident Handling.md",
     "ELK.md",
     "Sigma.md",
@@ -96,8 +98,6 @@
     "OllyDbg.md",
     "Scdbg.md",
     "Untitled 2.md",
-    "Windows.md",
-    "Immunity Debugger.md",
-    "IDA Pro.md"
+    "Windows.md"
   ]
 }
