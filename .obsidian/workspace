@@ -90,14 +90,14 @@
   "active": "f21773d15e98e3ba",
   "lastOpenFiles": [
     "Linux.md",
+    "Docker.md",
+    "Restricted environments.md",
     "SSH.md",
     "Incident Handling.md",
     "ELK.md",
     "Sigma.md",
     "Disassembler.md",
     "OllyDbg.md",
-    "Scdbg.md",
-    "Untitled 2.md",
-    "Windows.md"
+    "Scdbg.md"
   ]
 }

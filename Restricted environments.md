@@ -27,7 +27,7 @@ BSD jails
 	*The most secure options of the three*
 
 Solaris Zones and Containers 
-	It extends the chroot and jail concept, Solaris zone establishes boundaries and the containers are the pseudo-isolated process. This allows for one physical solaris OS to host other version of itself, or another solaris version. This implementation of containers is the same as fully virtualization such as VMware or docker. 
+	It extends the chroot and jail concept, Solaris zone establishes boundaries and the containers are the pseudo-isolated process. This allows for one physical solaris OS to host other version of itself, or another solaris version. This implementation of containers is the same as fully virtualization such as VMware or [[docker]]. 
 	
 	
 GRsecurity and PaX
