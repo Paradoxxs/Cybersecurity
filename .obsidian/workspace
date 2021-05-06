@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linux",
+                "query": ">>",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,

