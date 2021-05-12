@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Digital Forensics.md",
+            "file": "Minikatz.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "forensi",
+                "query": "mimi",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Digital Forensics.md",
+                "file": "Minikatz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "f21773d15e98e3ba",
   "lastOpenFiles": [
+    "Minikatz.md",
     "Digital Forensics.md",
     "Linux.md",
     "SSH.md",
@@ -97,7 +98,6 @@
     "Sigma.md",
     "Disassembler.md",
     "OllyDbg.md",
-    "Scdbg.md",
-    "Untitled 2.md"
+    "Scdbg.md"
   ]
 }
