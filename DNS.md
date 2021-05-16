@@ -1,9 +1,6 @@
-- DNS : Domain name system
-
-When make a dns request the machine will first look at hosts file to see if it allready exists, if not it will then try recursive DNS. 
-
-- The purpose of DNS is to translate human resemble to [[IP]]. 
-    - ex. google.com : 8.8.8.8
+# Domain name system
+The purpose of DNS is to translate human resemble to [[IP]]. 
+ex. google.com : 8.8.8.8
 This can either be done using a Domain name system server or the host file. The domain name is read from right to left. ex. www.google.com first .com is lookup then google.com and last www.google.com
 exsample of dns request. 
 www.google.com
@@ -11,6 +8,22 @@ when making a request it will go
 Request for : com 
 then google.com
 and last www.google.com
+
+![[Pasted image 20210514102400.png]]
+
+## DNS record 
+
+A record : resolve to [[IPv4]] address
+AAAA record : resolve to [[IPv6]]
+CNAME : sub domain like shops.shopify.com
+MX record : Is for mail server and tells the client the order of which it should try and send mail too. 
+TXT records : are text based data field. 
+
+
+When make a dns request the machine will first look at hosts file to see if it allready exists, if not it will then try recursive DNS. 
+
+
+
 
 
 

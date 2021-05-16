@@ -24,8 +24,10 @@ The connection is closed
 	 -	<- ACK
 	 -	<- FIN
 	 -	FIN ->
-Service
-
+	 
+If a port is closed the server will send back RST package. 
+	 
+## Service
 |Service|Port|
 |---|---|
 |http|80|
