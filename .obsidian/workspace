@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Minikatz.md",
+            "file": "Web exploitation.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mimi",
+                "query": "tag:#web",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Minikatz.md",
+                "file": "Web exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +88,15 @@
   },
   "active": "f21773d15e98e3ba",
   "lastOpenFiles": [
-    "Minikatz.md",
-    "Digital Forensics.md",
+    "Web exploitation.md",
+    "SQL injection.md",
+    "Untitled.md",
+    "HTTP.md",
     "Linux.md",
-    "SSH.md",
-    "Incident Handling.md",
-    "ELK.md",
-    "Sigma.md",
-    "Disassembler.md",
-    "OllyDbg.md",
-    "Scdbg.md"
+    "Metasploit.md",
+    "Burp suite.md",
+    "HTTPS.md",
+    "Encyption.md",
+    "Asymmetric encryption.md"
   ]
 }

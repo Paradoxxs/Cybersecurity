@@ -261,8 +261,18 @@ In the above command we are creating a netcat listener that forwards all input t
 |lsusb|Lists USB devices|
 |lsof|Lists opened files.|
 |lspci|Lists PCI devices.|
-
-
+|head|the first line of text.|
+|tail|the end of the file.|
+|sort|sort the result in the desired alphabetic 
+|grep|Search for specific result.|
+|cut|seperate the text based on delimiter|
+|tr|replace words.|
+|column|display result in tabular format|
+|awk|filter was part of the result get displayed| 
+|sed|replace text using regex format| 
+|wc| count result| 
+|chmod| change folder or file permission|
+|chown|allows you to change the group and user of the file|
 
 
 The most commonly used shell in Linux is the Bourne-Again Shell (|BASH|) and is part of the GNU project. Everything we do through the GUI we can do with the shell. The shell gives us many more possibilities to interact with programs and processes to get information faster. Besides, many processes can be easily automated with smaller or larger scripts that make manual work much.
@@ -271,6 +281,19 @@ The dollar sign, in this case, stands for a user. As soon as we log in as |root|
 
 
 ### tip and tricks 
+
+#### shortcuts
+|key|description|
+|---|---|
+|TAB|Auto-complete-b|
+|CTRL+A|move to the beginning.|
+|CTRL+E|move to the end.|
+|CTRL+arrow|jump word-|
+|CTRL+u|delete everything from the cursor to the beginning.|
+|CTRL+K|Delete everything from the cursor to the end.|
+|CTRL+L|Clear terminal|
+|CTRL+R|Search previous command|
+
 
 | 
 Direct the stdout to the next command. allows you append command to another one cat /etc/shadow | grep root
@@ -349,7 +372,7 @@ Next, let's start the backdoor:
 	
 	
 	## Hardening 
-	Another necessary step in our configuration and setup of our VPS is the hardening of the system and access. We should limit our access to the VPS to SSH and disable all other services on the VPS. Finally, we will reduce the attack vectors to a minimum and provide only one possible access to our VPS, which we will secure in the best possible way. We should keep in mind that, if possible, we should not store any sensitive data on the VPS, or at least only for a short period when we perform an internal penetration test. In doing so, we should follow the principle that someone could gain access to the system sooner or later.
+Hardening of Linux system starts by limiting access to the system. by implementing what user can be access through ssh, limit to only user account not root, implement strong password on user and [[Fail2ban]] which ban anyone attempting to #Brute-force attack the server. The next step would be to stop used from accessing root account, if user required to run something as root, configure that in sudoer to only allow specific commands. Keep the system up to date. And remember to do audit on the machine using the logs. 
 
 However, since in this case, the VPS is only used as a source for our organization and tools and we can access these resources via SSH, we should secure and harden the SSH server accordingly so that no one else (or at least no one other than the team members) can access it. There are many ways to harden it, and this includes the following precautions, but not limited to:
 

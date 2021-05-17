@@ -1,3 +1,5 @@
+# SQL injection
+#exploitation 
 [[SQL]] injection goal is to execute arbitrary SQL commands with the web server account 
 
 
