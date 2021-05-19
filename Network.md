@@ -42,3 +42,9 @@ Multiprotocol label switching (MPLS)  is data forwarding technology that increas
 		- [[ICMP]] 
 		
 [[Network sniffer]]
+
+
+## Ports
+Ports are the windows or doors to the machine which allows us to communicate too or from machines. 
+
+[Cheatsheet](https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-sg-en-4/ch-ports.html)

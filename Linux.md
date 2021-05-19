@@ -347,10 +347,6 @@ Want to see the text inside a binary or data file?  The Linux |strings| command
 ### Fish
 [doc](https://fishshell.com/)
 	
-### Tmux 
-A very efficient alternative, which can also be used as an extension, is [Tmux](https://github.com/tmux/tmux/wiki). |Tmux| is a terminal multiplexer that allows creating a whole shell session with multiple windows and subwindows from a single shell window. As we know, started processes abort when the terminal session or SSH connection disappears. Tmux's console keeps the process alive by working with sessions. For example, if we are connected to a constantly running server in this way, we can close the terminal or shut down the computer on the local client without terminating the Tmux session. If we log back into the remote server via SSH, we can view the existing sessions and rejoin the desired session.
-	
-	
 ### fifo backdoor
 first in first out
 We will next need to create a fifo backpipe:
