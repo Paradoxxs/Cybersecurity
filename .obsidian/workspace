@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f21773d15e98e3ba",
+        "id": "399ebffe07ad7f46",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web exploitation.md",
+            "file": "Applocker.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web exploitation.md",
+                "file": "Applocker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f21773d15e98e3ba",
+  "active": "399ebffe07ad7f46",
   "lastOpenFiles": [
+    "Applocker.md",
+    "Azure sentinel.md",
+    "BloodHoundAD.md",
+    "BOOTP.md",
+    "Alerts.md",
+    "Application allow listing.md",
+    "Atomic red team.md",
+    "Authorization.md",
     "Web exploitation.md",
-    "SQL injection.md",
-    "Untitled.md",
-    "HTTP.md",
-    "Linux.md",
-    "Metasploit.md",
-    "Burp suite.md",
-    "HTTPS.md",
-    "Encyption.md",
-    "Asymmetric encryption.md"
+    "SQL injection.md"
   ]
 }

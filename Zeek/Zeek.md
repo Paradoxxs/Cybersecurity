@@ -14,5 +14,5 @@ Zeek is a open source network security monitor.
 
 
 
-[Zeek Logs](https://www.zeek.org/) i
+[Zeek Logs](https://www.zeek.org/) 
 [Zeek docs](https://docs.zeek.org/en/current/)
