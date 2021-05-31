@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Applocker.md",
+            "file": "Dumping plaintext RDP credentials from svchost.exe.md",
             "mode": "source"
           }
         }
@@ -39,8 +39,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#web",
-                "matchingCase": true,
+                "query": "windows",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Applocker.md",
+                "file": "Dumping plaintext RDP credentials from svchost.exe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -78,25 +78,33 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "b4a2d8a0716c212d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "399ebffe07ad7f46",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Windows.md",
+    "Atomic red team.md",
+    "Anti-virus.md",
+    "Bridge.md",
+    "anti-virus.md",
+    "BOOTP.md",
     "Applocker.md",
     "Azure sentinel.md",
-    "BloodHoundAD.md",
-    "BOOTP.md",
-    "Alerts.md",
-    "Application allow listing.md",
-    "Atomic red team.md",
-    "Authorization.md",
-    "Web exploitation.md",
-    "SQL injection.md"
+    "BloodHoundAD.md"
   ]
 }

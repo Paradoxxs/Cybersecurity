@@ -17,7 +17,7 @@ msfrpcd control metasploit through XML over RPC on TCP port 55553
 Armitage is a GUI that controls metasploit through msfrpcd, is no longer updated  
 msfcli 
 maspayload convert payload into a stand-alone file
-msfencode take a raw payload and encode it to evade strict signature of [[IDS]], [[IPS]] and [[anti-virus]].  
+msfencode take a raw payload and encode it to evade strict signature of [[IDS]], [[IPS]] and [[Anti-virus]].  
 
 
 Metasploit cheat sheet: https://www.sans.org/security-resources/sec560/misc_tools_sheet_v1.pdf

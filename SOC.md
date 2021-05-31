@@ -34,6 +34,6 @@ The main part of a analyst is the investigation elements. Eye for details and th
 
 ## Security tool 
 How the security tool overlaps 
-[[SOC]], [[anti-virus]], [[UBEA]]/[[UBA]],[[SIEM]],[[NSM]]
+[[SOC]], [[Anti-virus]], [[UBEA]]/[[UBA]],[[SIEM]],[[NSM]]
 
 ![[Pasted image 20210429092956.png]]
