@@ -3,3 +3,6 @@ https://casvancooten.com/posts/2020/05/oscp-cheat-sheet-and-command-reference/
 https://gist.github.com/AvasDream/47f13a510e543009a50c8241276afc24
 https://github.com/lorenzoinvidia/HackTheBox/wiki/Linux#Privilege-Escalation
 https://github.com/CountablyInfinite/oscp_cheatsheet
+
+forensics:
+https://www.sandflysecurity.com/wp-content/uploads/2018/11/Linux.Compromise.Detection.Command.Cheatsheet.pdf

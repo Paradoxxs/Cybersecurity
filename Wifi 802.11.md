@@ -13,7 +13,7 @@ Security misconception
 Attacks
 -	[[Eavesdropping attacks]]
 -	Masquerading, Attacker impersonates nodes or access points in a wireless network. 
--	[[DOS]]
+-	[[DDOS]]
 -	Rouge AP 
 
 

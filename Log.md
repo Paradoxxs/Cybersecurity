@@ -8,4 +8,4 @@ When it comes to what to log, try to limit the scope as much as possible without
 
 Log consolidation 
 	Is the process of consolidating log data into a central database.
-	in any environment that has multiple machines, centralized logging should be put in place. It simplify the administrator of logs, protects against log wiping, some of the downfalls of centralized logging is the possibility of [[DOS]] attacks, the need for disk storage and all sensitive information storage in one place. 
+	in any environment that has multiple machines, centralized logging should be put in place. It simplify the administrator of logs, protects against log wiping, some of the downfalls of centralized logging is the possibility of [[DDOS]] attacks, the need for disk storage and all sensitive information storage in one place. 
