@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "399ebffe07ad7f46",
+        "id": "970b1d18d6290b90",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Dumping plaintext RDP credentials from svchost.exe.md",
+            "file": "Introduction to web applications.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "windows",
+                "query": "#htb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dumping plaintext RDP credentials from svchost.exe.md",
+                "file": "Introduction to web applications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,19 +93,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "399ebffe07ad7f46",
+  "active": "970b1d18d6290b90",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Windows.md",
-    "Atomic red team.md",
-    "Anti-virus.md",
-    "Bridge.md",
-    "anti-virus.md",
-    "BOOTP.md",
-    "Applocker.md",
-    "Azure sentinel.md",
-    "BloodHoundAD.md"
+    "Introduction to web applications.md",
+    "CVE.md",
+    "SQL injection.md",
+    "Web Application.md",
+    "SLA.md",
+    "CSS.md",
+    "Cross site scripting.md",
+    "Azure/Zeek.md",
+    "HTML.md",
+    "OWASP.md"
   ]
 }

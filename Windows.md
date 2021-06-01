@@ -4,7 +4,16 @@ Windows has two access modes
 	-	Kernel mode, Core OS components, drivers (Ring 0)
 	-	User mode, Application code, Drivers  (Ring 3)
 	API is used to perform action on the kernel mode 
-	
+
+Non-interactive session 
+WIndows comes with three non-interactive sessions, the job of these account is to run windows operations services, processes and scheduled tasks. 
+
+| Account               | Description                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------- |
+| Local system account  | NT AUTHORITY\System is the most powerful of all accounts its responsible for handling OS related tasks   |
+| Local service account | Know as NT AUTHORITY\LocalService can start services, it have the same privilege as a local user account |
+|Network service account|NT AUTHORITY\NetworkService have the same access a domain user and local account and responsible for authenticate to certain network session|
+
 	
 ## File system
 
@@ -212,10 +221,12 @@ Same command as in linux.
 list the current task / process 
 -m allows you to list the dll the process has loaded. 
 
-#### regsrv32
-Stands for Microsoft register server. it's used to register and unregister object linking and embedding controls like dll files and OCX files. by using the command regsrv32 -s <file name of the dll to be loaded> will tells windows in load that specific dll file. This can be easily be exploited by having the system load an dll with malware in it. 
 
-#### Cheatsheet : 
+#### regsrv32
+Stands for Microsoft register server. it's used to register and unregister object linking and embedding controls like dll files and OCX files. by using the command regsrv32 -s <\file name of the dll to be loaded> will tells windows in load that specific dll file. This can be easily be exploited by having the system load an dll with malware in it. 
+	
+#### Cheatsheet 
+	
 		[Cheatshet](https://www.sans.org/security-resources/sec560/windows_command_line_sheet_v1.pdf)
 		
 ### Powershell 
@@ -242,12 +253,47 @@ System Monitor (Sysmon) is a Windows system service and device driver that, once
 ^Sysmon
 	
 ### Key windows protocol
-	-	SBM : TCP/139/445
-	-	RPC	:	TCP/135
-	-	LDAP :	TCP/389/636/3268/3269
-	-	Kerberos : TCP/UDP/88
-	-	DNS : UDP/TCP/53
-	-	RDP : TCP/3389
-	-	SQL TCP/UDP/1433/1434
-	-	Netbios: TCP/UDP/137, UDP/138, TCP/139, TCP/UDP/1512, TCP/42
-	-	IPSec : UDP/500/4500 for IKE, protocols 50 and 51 for ESP and AH
+-	SBM : TCP/139/445
+-	RPC	:	TCP/135
+-	LDAP :	TCP/389/636/3268/3269
+-	Kerberos : TCP/UDP/88
+-	DNS : UDP/TCP/53
+-	RDP : TCP/3389
+-	SQL TCP/UDP/1433/1434
+-	Netbios: TCP/UDP/137, UDP/138, TCP/139, TCP/UDP/1512, TCP/42
+-	IPSec : UDP/500/4500 for IKE, protocols 50 and 51 for ESP and AH
+
+	
+## Sysinternals tools 
+Is a set of windows application used by administrators, which can be access from both web and share *live.sysinternals.com\tools* which can be used to get information about the device for privilege escalation. 
+	
+## WMI 
+Subsystem for windows powershell which provides admin with monitoring ability. 
+
+## Security identifier (SID)
+![[Pasted image 20210531130309.png]]
+
+
+| Number| Meaning| Description|
+| --- | --- | --- |
+| S| SID| Identify string as SID|
+| 1| Revision number| To this date never changed|
+| 5| Identifier-authority | 48-bit string that identifies the computer or network that created the SID|
+| 21| SubAuthority1| This is a variable number that identifies the user's relation or group described by the SID to the authority that created it. It tells us in what order this authority created the user's account. |
+| 674899381-4069889467-2080702030 | Subauthority2| Tells us which computer (or domain) created the number|
+| 1002| SubAuthority3| The RID that distinguishes one account from another. Tells us whether this user is a normal user, a guest, an administrator, or part of some other group|
+
+	
+## Registry 
+Is a hierarchical database inside windows. It stores low-level settings, and is split up in computer and user, It can be open by typing regedit inside cmd or run. 
+
+##  Application whitelisting
+Application whitelisting identify what application a system can run, it used to provent user from running application that is not allowed by the organization. default setting allows user to only run application from Windows, program files and programs files (x86)
+
+
+### AppLocker
+Is the application inside windows used to enable application whitelisting. 
+
+## Local group policy 
+Is the similar to domain group policy which allows administrator to set policy for network, computer and users. What is allowed and how the system should react. 
+
