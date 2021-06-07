@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "cheatsheet-33.md",
+            "file": "STACK-BASED BUFFER OVERFLOWS ON LINUX X86.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#HT",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cheatsheet-33.md",
+                "file": "STACK-BASED BUFFER OVERFLOWS ON LINUX X86.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,15 +97,15 @@
   },
   "active": "970b1d18d6290b90",
   "lastOpenFiles": [
-    "cheatsheet-33.md",
+    "STACK-BASED BUFFER OVERFLOWS ON LINUX X86.md",
+    "Buffer overflow.md",
+    "CPU.md",
+    "Untitled 3.md",
     "Sql Injection fundamentals.md",
+    "cheatsheet-23.md",
     "MAC.md",
     "cpscam.md",
-    "OSI.md",
     "Network.md",
-    "PAN.md",
-    "VPN.md",
-    "Internet.md",
-    "WAN.md"
+    "cheatsheet-33.md"
   ]
 }
