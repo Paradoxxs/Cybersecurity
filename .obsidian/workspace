@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web exploitation.md",
+            "file": "Sql Injection fundamentals.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#web",
+                "query": "#data",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web exploitation.md",
+                "file": "Sql Injection fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "f21773d15e98e3ba",
   "lastOpenFiles": [
-    "Web exploitation.md",
-    "SQL injection.md",
-    "Untitled.md",
-    "HTTP.md",
+    "Sql Injection fundamentals.md",
+    "cheatsheet-54.md",
+    "Untitled 1.md",
+    "Ffuf.md",
+    "Introduction to web applications.md",
+    "Getting started in infosec.md",
+    "Information security.md",
+    "cheatsheet-HTB.md",
     "Linux.md",
-    "Metasploit.md",
-    "Burp suite.md",
-    "HTTPS.md",
-    "Encyption.md",
-    "Asymmetric encryption.md"
+    "Cheatsheets.md"
   ]
 }
