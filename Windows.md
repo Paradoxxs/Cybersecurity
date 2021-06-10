@@ -1,10 +1,58 @@
+# Windows 
+#windows
 Windows has two access modes
 	-	Kernel mode, Core OS components, drivers (Ring 0)
 	-	User mode, Application code, Drivers  (Ring 3)
 	API is used to perform action on the kernel mode 
+
+Non-interactive session 
+WIndows comes with three non-interactive sessions, the job of these account is to run windows operations services, processes and scheduled tasks. 
+
+| Account               | Description                                                                                              |
+| --------------------- | -------------------------------------------------------------------------------------------------------- |
+| Local system account  | NT AUTHORITY\System is the most powerful of all accounts its responsible for handling OS related tasks   |
+| Local service account | Know as NT AUTHORITY\LocalService can start services, it have the same privilege as a local user account |
+|Network service account|NT AUTHORITY\NetworkService have the same access a domain user and local account and responsible for authenticate to certain network session|
+
 	
+## File system
+
+FAT32 (file allocation table)
 	
-### Memory
+## file directory
+
+| Directory                  | Function                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Perflogs                   | Can hold Windows performance logs but is empty by default.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Program Files              | On 32-bit systems, all 16-bit and 32-bit programs are installed here. On 64-bit systems, only 64-bit programs are installed here.                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Program Files (x86)        | 32-bit and 16-bit programs are installed here on 64-bit editions of Windows.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ProgramData                | This is a hidden folder that contains data that is essential for certain installed programs to run. This data is accessible by the program no matter what user is running it.                                                                                                                                                                                                                                                                                                                                                                                   |
+| Users                      | This folder contains user profiles for each user that logs onto the system and contains the two folders Public and Default.                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Default                    | This is the default user profile template for all created users. Whenever a new user is added to the system, their profile is based on the Default profile.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Public                     | This folder is intended for computer users to share files and is accessible to all users by default. This folder is shared over the network by default but requires a valid network account to access.                                                                                                                                                                                                                                                                                                                                                          |
+| AppData                    | Per user application data and settings are stored in a hidden user subfolder (i.e., cliff.moore\\AppData). Each of these folders contains three subfolders. The Roaming folder contains machine-independent data that should follow the user's profile, such as custom dictionaries. The Local folder is specific to the computer itself and is never synchronized across the network. LocalLow is similar to the Local folder, but it has a lower data integrity level. Therefore it can be used, for example, by a web browser set to protected or safe mode. |
+| Windows                    | The majority of the files required for the Windows operating system are contained here.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| System, System32, SysWOW64 | Contains all DLLs required for the core features of Windows and the Windows API. The operating system searches these folders any time a program asks to load a DLL without specifying an absolute path.                                                                                                                                                                                                                                                                                                                                                         |
+|WinSxS|The Windows Component Store contains a copy of all Windows components, updates, and service packs.|
+
+
+## Services
+
+| Service                | Description                                                                                                                                                                                                              |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|smss.exe               | Session Manager SubSystem. Responsible for handling sessions on the system.                                                                                                                                              |
+|csrss.exe              | Client Server Runtime Process. The user-mode portion of the Windows subsystem.                                                                                                                                           |
+|wininit.exe            | Starts the Wininit file .ini file that lists all of the changes to be made to Windows when the computer is restarted after installing a program.                                                                         |
+|logonui.exe            | Used for facilitating user login into a PC                                                                                                                                                                               |
+|lsass.exe              | The Local Security Authentication Server verifies the validity of user logons to a PC or server. It generates the process responsible for authenticating users for the Winlogon service.                                 |
+|services.exe           | Manages the operation of starting and stopping services.                                                                                                                                                                 |
+|winlogon.exe           | Responsible for handling the secure attention sequence, loading a user profile on logon, and locking the computer when a screensaver is running.                                                                         |
+|System                 | A background system process that runs the Windows kernel.                                                                                                                                                                |
+|svchost.exe with RPCSS | Manages system services that run from dynamic-link libraries (files with the extension .dll) such as "Automatic Updates," "Windows Firewall," and "Plug and Play." Uses the Remote Procedure Call (RPC) Service (RPCSS). |
+|svchost.exe with Dcom/PnP|Manages system services that run from dynamic-link libraries (files with the extension .dll) such as "Automatic Updates," "Windows Firewall," and "Plug and Play." Uses the Distributed Component Object Model (DCOM) and Plug and Play (PnP) services.|
+
+
+## Memory
 
 ^0d4da0
 
@@ -173,10 +221,12 @@ Same command as in linux.
 list the current task / process 
 -m allows you to list the dll the process has loaded. 
 
-#### regsrv32
-Stands for Microsoft register server. it's used to register and unregister object linking and embedding controls like dll files and OCX files. by using the command regsrv32 -s <file name of the dll to be loaded> will tells windows in load that specific dll file. This can be easily be exploited by having the system load an dll with malware in it. 
 
-#### Cheatsheet : 
+#### regsrv32
+Stands for Microsoft register server. it's used to register and unregister object linking and embedding controls like dll files and OCX files. by using the command regsrv32 -s <\file name of the dll to be loaded> will tells windows in load that specific dll file. This can be easily be exploited by having the system load an dll with malware in it. 
+	
+#### Cheatsheet 
+	
 		[Cheatshet](https://www.sans.org/security-resources/sec560/windows_command_line_sheet_v1.pdf)
 		
 ### Powershell 
@@ -203,12 +253,47 @@ System Monitor (Sysmon) is a Windows system service and device driver that, once
 ^Sysmon
 	
 ### Key windows protocol
-	-	SBM : TCP/139/445
-	-	RPC	:	TCP/135
-	-	LDAP :	TCP/389/636/3268/3269
-	-	Kerberos : TCP/UDP/88
-	-	DNS : UDP/TCP/53
-	-	RDP : TCP/3389
-	-	SQL TCP/UDP/1433/1434
-	-	Netbios: TCP/UDP/137, UDP/138, TCP/139, TCP/UDP/1512, TCP/42
-	-	IPSec : UDP/500/4500 for IKE, protocols 50 and 51 for ESP and AH
+-	SBM : TCP/139/445
+-	RPC	:	TCP/135
+-	LDAP :	TCP/389/636/3268/3269
+-	Kerberos : TCP/UDP/88
+-	DNS : UDP/TCP/53
+-	RDP : TCP/3389
+-	SQL TCP/UDP/1433/1434
+-	Netbios: TCP/UDP/137, UDP/138, TCP/139, TCP/UDP/1512, TCP/42
+-	IPSec : UDP/500/4500 for IKE, protocols 50 and 51 for ESP and AH
+
+	
+## Sysinternals tools 
+Is a set of windows application used by administrators, which can be access from both web and share *live.sysinternals.com\tools* which can be used to get information about the device for privilege escalation. 
+	
+## WMI 
+Subsystem for windows powershell which provides admin with monitoring ability. 
+
+## Security identifier (SID)
+![[Pasted image 20210531130309.png]]
+
+
+| Number| Meaning| Description|
+| --- | --- | --- |
+| S| SID| Identify string as SID|
+| 1| Revision number| To this date never changed|
+| 5| Identifier-authority | 48-bit string that identifies the computer or network that created the SID|
+| 21| SubAuthority1| This is a variable number that identifies the user's relation or group described by the SID to the authority that created it. It tells us in what order this authority created the user's account. |
+| 674899381-4069889467-2080702030 | Subauthority2| Tells us which computer (or domain) created the number|
+| 1002| SubAuthority3| The RID that distinguishes one account from another. Tells us whether this user is a normal user, a guest, an administrator, or part of some other group|
+
+	
+## Registry 
+Is a hierarchical database inside windows. It stores low-level settings, and is split up in computer and user, It can be open by typing regedit inside cmd or run. 
+
+##  Application whitelisting
+Application whitelisting identify what application a system can run, it used to provent user from running application that is not allowed by the organization. default setting allows user to only run application from Windows, program files and programs files (x86)
+
+
+### AppLocker
+Is the application inside windows used to enable application whitelisting. 
+
+## Local group policy 
+Is the similar to domain group policy which allows administrator to set policy for network, computer and users. What is allowed and how the system should react. 
+

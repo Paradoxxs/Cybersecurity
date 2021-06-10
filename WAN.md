@@ -1,3 +1,5 @@
+# WAN 
+Think the internet
 Wide area network (WAN) cover a larger geographic area than LAN and MAN and uses the internet for connecting with remote facilities. 
 
 Dedicated lines is a way to interconnect two remote sites to provide a dedicated point to point link between them. which is leased from a carrier company. The dedicated line is used solely by the company that leases it. 
