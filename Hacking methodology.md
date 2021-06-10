@@ -1,12 +1,14 @@
 # Hacking methodology
+The different phases of hacking. 
 
 
-## Reconnaissance
+## [[Reconnaissance]]
+Information gathering phase both from [[OSINT]] sources, we do not interact directly with the target. 
 
-## Scanning & enumeration
+## [[Scanning & enumeration]]
 
-## Exploitation
+## [[Exploitation]]
 
-## Maintain access
+## [[Maintain access]]
 
-## Covering tracks
+## [[Covering tracks]]

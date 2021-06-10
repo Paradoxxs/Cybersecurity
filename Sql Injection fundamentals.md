@@ -45,4 +45,4 @@ And finally we have out-of-band when we direct the output to a remote location s
 
 ## Cheet sheet
 [[cheatsheet-33]]
-[PayloadsAllthingsSQL](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection#using-tor-with-sqlmap)
+[PayloadsAllthingsSQL](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection)
