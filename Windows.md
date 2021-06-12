@@ -1,4 +1,4 @@
-# Windows 
+??# Windows 
 #windows
 Windows has two access modes
 	-	Kernel mode, Core OS components, drivers (Ring 0)
@@ -53,7 +53,7 @@ FAT32 (file allocation table)
 
 
 ## Memory
-
+#memory
 ^0d4da0
 
 PE/CONFF utilize import address table (IAT) and export address table (EAT) the IAT holds symbols that require resolution upon program runtime and EAT make available functions local to the program or library that may be used by other executable files.
@@ -102,6 +102,7 @@ Collection of DDL that run within 32 bit process, that emulate the requirements 
 Structure data in a processes user address space that holds information about the process. This information includes items such as the base address of the loaded module the start of the heap , imported DLLs.
 
 ### Windows Shellcode 
+#shell
 Is used in the same way as on [[Linux#^Shellcode]] spawning a shell, adding account, command execution and practical anything else. Shell on windows have more optaions as it allow DLL injection and installation control software. Shell code is only good for the processor architecture for which it was written for. One of the biggest challenges of writhing shellcode on windows is determining the location of the desired function within the OS. unlike Linux where system calls and function are static between version. On windows it constantly changing.
 Windows does not allow for direct access to opening sockets and network ports through direct system calls. you must go through the API function to archive this. 
 Forcing the shellcode to use API to make system calls. 
@@ -115,7 +116,11 @@ Type of shellcodes
 Multi-stage shellcode for when there not enough space to fit the shellcode, the first-stage loader get additional shellcode over the connection. 	
 
 ### Tools
-###[[OllyDbg]] 
+#### Windows sys tools 
+The [SysInternals Tools suite](https://docs.microsoft.com/en-us/sysinternals) is a set of sys tools that can for the most be used without installing typing `\\live.sysinternals.com\tools` into a Windows Explorer window.
+	
+
+#### [[OllyDbg]] 
 allows one to inspect and modify assembly code for compiled binary. API calls can be monitored and intercepted. 
 
 
@@ -167,10 +172,7 @@ Is method of disk encryption using AES, and boot-up integrity check with TPM
 ### TPM 
 Trusted platform module is a chip built into the motherboard of a computer which can perform on-board random number generation, encryption, hashing and other cryptographic operations. The TPM is also a secure storage location for keys, passwords, hashes and other secrets. 
 	
-	
-### APPLocker
-Allows administrators to define which executables can and cannot be run.
-The default rules of applocker only allows the user to execute program from protected files, windows, program files and program files (x86)
+
 	
 ### Windows firewall 
 Built in free [[Firewall]] enabled by default, and allowed to be managed by group policy. Three different network profiles Domain, Public and private. 
@@ -191,7 +193,7 @@ Best practices
 		
 		
 ### CMD
-
+#cli
 #### WMIC 
 Can be used to get or set configuration data for a very wide variety of settings. 
 #### Cerutil 	
@@ -249,10 +251,12 @@ Logs types
 The built-in windows event collector service is a bit like syslog on Linux, event log data is sent over SSL and it uses the Web service management protocol to either pull data from monitored system or push data from the monitored systems to the collector or both. When a monitored system is off-line, its batched -up events will be forwarded to the collector when accessible again.
 	
 ### Sysmon 
+#log
 System Monitor (Sysmon) is a Windows system service and device driver that, once installed on a system, remains resident across system reboots to monitor and log system activity to the Windows event log. It provides detailed information about process creations, network connections, and changes to file creation time. By collecting the events it generates using [Windows Event Collection](https://msdn.microsoft.com/library/windows/desktop/bb427443(v=vs.85).aspx) or [SIEM](https://en.wikipedia.org/wiki/security_information_and_event_management) agents and subsequently analyzing them, you can identify malicious or anomalous activity and understand how intruders and malware operate on your network.
 ^Sysmon
 	
 ### Key windows protocol
+#network #services
 -	SBM : TCP/139/445
 -	RPC	:	TCP/135
 -	LDAP :	TCP/389/636/3268/3269
@@ -287,13 +291,25 @@ Subsystem for windows powershell which provides admin with monitoring ability.
 ## Registry 
 Is a hierarchical database inside windows. It stores low-level settings, and is split up in computer and user, It can be open by typing regedit inside cmd or run. 
 
-##  Application whitelisting
-Application whitelisting identify what application a system can run, it used to provent user from running application that is not allowed by the organization. default setting allows user to only run application from Windows, program files and programs files (x86)
 
 
-### AppLocker
-Is the application inside windows used to enable application whitelisting. 
 
 ## Local group policy 
 Is the similar to domain group policy which allows administrator to set policy for network, computer and users. What is allowed and how the system should react. 
 
+
+
+## Security 
+
+
+### user account control (UAC)
+UAC is a security feature to prevents malware from running and manipulating processes that could damage the computer or it contents. 
+
+![[uacarchitecture1.png]]
+
+
+### [[Applocker]]
+
+
+### Defender 
+Windows Default anti-virus

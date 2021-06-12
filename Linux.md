@@ -1,4 +1,5 @@
 # Linux
+#Linux 
 Linux is a open source operation system.
 ## Philosophy 
 
@@ -213,6 +214,7 @@ journalctl -u
 
 
 ## Shellcode 
+#shell
 It primarily used to spawn a shell. Shellcode is usually written in assembly and then assembled into machine code by tools such as netwide assembler. Nowadays it used to thing under the right of the program being compromised. A common usage of shellcode is to bind a shell listening port on the system, add user, dll injection. 
 null bytes must not be part of the shell code, because if function hit a null byte it will be translated to a string terminator, causing the shell code to fail. ^Shellcode
 
@@ -641,5 +643,13 @@ Now we can test this and try to login to the SSH server with our SSH key and che
 Adam@htb[/htb]$ ssh cry0l1t3@VPS -i cry0l1t3
 
 Enter passphrase for key 'cry0l1t3': *************
-Verification code: <Google-Auth Code>
-|||
+Verification code: **Google-Auth Code**
+
+
+	
+## Cheat sheet 
+
+|command|description|
+|---|---|
+|find . -perm /4000 2>/dev/null|find files with execution perm|
+|find / -perm -u=s -type f 2>/dev/null| find files with special perm|

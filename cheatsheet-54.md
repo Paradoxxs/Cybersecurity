@@ -1,4 +1,6 @@
 # Ffuf
+#web #fuzzing
+Ffuf is a web fuzzing tool
 
 | **Command**   | **Description**   |
 | --------------|-------------------|
