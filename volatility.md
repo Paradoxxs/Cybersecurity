@@ -1,6 +1,17 @@
+# volatility
 [Volatility](https://www.volatilityfoundation.org/) is a[[memory]] forensics tools allowing a person to analyze a memory dump of a computer. 
 
-### Vad tag 
+## cheat sheet
+https://book.hacktricks.xyz/forensics/basic-forensic-methodology/memory-dump-analysis/volatility-examples
+
+
+```
+sudo volatility -f Snapshot6.vmem --profile Win7SP1x64 hashdump --output-file=snapshot6.creds
+```
+
+
+
+#### Vad tag 
 When a executable is normaly loaded  it should have memory protection of  PAGE_EXECUTE_WRITECOPY
 #### PAGE_EXECUTE_READWRITE
 Is a indication that it code injected, because it does not have the expected memory protection. 
@@ -11,6 +22,10 @@ Is a indication that it code injected, because it does not have the expected mem
 
 ### Plugins 
 
+### Hashdump
+Dumps password hashes
+#### shutdowntime
+Display computer shutdowntime 
 #### modules
 Will list all kernel modules
 

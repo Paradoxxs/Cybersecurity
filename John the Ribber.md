@@ -1,5 +1,5 @@
 # John the Ribber,
-#Cracking 
+#Cracking  #Password 
 
 
 ## tools 
@@ -17,4 +17,5 @@ On parrot tools are located at **/usr/share/john/**
 |john hash -w wordlist.txt| use word list to crack|
 |john hash --show| show cracked passwords|
 |john -w wordlist.txt --stdout=8 --rules:Tryout| Generate password candidates max length of 8|
-
+| john --format| hash format|
+|john -wordlist=/usr/share/wordlists/rockyou.txt --format=raw-sha1 hash| cracking sha1 with wordlist|

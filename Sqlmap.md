@@ -5,6 +5,12 @@ Automation of the SQLi process.
 
 
 ## Usage
+|Command|Description|
+|---|---|
+|sqlmap -r reg  --dbms=mysql --dump|SQLi on post request and dump databases|
+
+
+
 ### Simple usage
  sqlmap -u “http://targetserver/”
 

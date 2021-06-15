@@ -40,6 +40,14 @@ Add public key to **Authorized_keys** and login with once own private key.
 #### Service running on localhost
 
 #### Kernel Version
+Display kernel version: 
+cat /proc/version || uname -a ) 2\>/dev/null
+lsb\_release -a 2\>/dev/null
+
+Kernel exploit
+cat /proc/version
+uname -a
+searchsploit "Linux Kernel"
 
 #### Binary File version
 
@@ -47,16 +55,29 @@ Add public key to **Authorized_keys** and login with once own private key.
 
 ### Misconfiguration 
 
+#### Processes 
+Anything running with more promission then it should? 
+ps aux
+ps -ef
+top -n 1
+
 #### Cron jobs
+Any cron jobs running  that is vulnerable, a script that gets executed we can modify, script being executed by root (wildcard vuln? can modify files that root uses? use symlinks? create specific files in the directory that root uses?
+crontab -l
+ls -al /etc/cron* /etc/at*
+cat /etc/cron* /etc/at* /etc/anacrontab /var/spool/cron/crontabs/root 2>/dev/null | grep -v "^#
 
 
 ##### Writeable Cron Job
 crontab -e		Edit cron job 
 
+
 ##### Writeable cron job dependency 
 crontab -l		Read cron job 
 File, python libray, etc.
 
+##### cron jobs wild card
+*rsync -a \*.sh rsync://host.back/src/rbd	 # You can create a file called "-e sh myscript.sh" so the script will execute our script*
 
 #### SUID/SGID files
 
@@ -81,8 +102,10 @@ find / -perm -u=s -type f 2>/dev/null		find files with special perm
 
 
 #### Writable PATH 
-Root $PATH writable
+If you **have write permissions on any folder inside the** **`PATH`** variable you may be able to hijacking some libraries or binaries:
 
+echo $PATH
+Root $PATH writable
 Directory in PATH Writable
 
 
@@ -123,14 +146,14 @@ whoami /prem
 Services from third party vendors are usually the easiest way to get root or admin privilege. Or use processes that behave like a service. 
 To escalate using services identify it environment: environment variables, libraries, config files, input files, how is it started. Scheduled task, Anything surrounding the service can be use full. If the service is already running it must be restarted in some way. 
 [[Metasploit]] has post exploitation modules. 
-
+[Hacktricks](https://book.hacktricks.xyz/windows/windows-local-privilege-escalation#services)
 **CMD**
 
 **Get All services details:**
 wmic service get name,pathname,displayname,startmode 
 
 **Find all service which i not in windows folder:**
-wmic service get name,pathname,displayname,startmode | findstr /i auto | findstr /i /v "C:\\Windows\\\\" 
+wmic service get name,displayname,pathname,startmode |findstr /i "Auto" | findstr /i /v "C:\Windows\"
 
 
 
@@ -147,7 +170,7 @@ Get-Service | Where\-Object {$\_.Status -eq "Running"}
 ##### Unquoted service path
 **CMD**
 **Find all service that is unqouted which i not in windows folder:**
-wmic service get name,pathname,displayname,startmode | findstr /i auto | findstr /i /v "C:\\Windows\\\\" | findstr /i /v """"
+wmic service get name,pathname,displayname,startmode | findstr /i auto | findstr /i /v "C:\\Windows\\\\" | findstr /i /v '""'
 
 ##### Change Service Binary location
 

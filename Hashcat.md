@@ -4,10 +4,17 @@ Hashcat is a password cracking tool
 
 
 ## Cheat sheet
-
+[doc](https://hashcat.net/wiki/doku.php?id=hashcat)
 ![[HashcatCheatSheet.v2018.1b.pdf]]
+[hashmodes](https://hashcat.net/wiki/doku.php?id=example_hashes)
 
 ## usage
+|command|description|
+|---|---|
+|-m|set the mode|
+|-a|attack mode|
+|hashcat -m 0 -a 3 hash| bruteforce md5 hash|
+
 generate a possible wordlist using the clue :
 e.g. could be using company name as clue 
 **hashcat -r /usr/share/hashcat/rules/best64.rule — stdout clue > password.txt**
