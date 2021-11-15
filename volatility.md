@@ -66,6 +66,16 @@ list the process in the memory
 #### dumpregistry
 dump the register files from the memory
 
+#### impscan
+scan for import apis in memory
+vol.py -f great.vmem --profile=Win10x86 impscan -p 3228 -b 0x19e0000 --output=idc > great.idc
+before the file can be importent into ida code needs to be added to the file. 
+#include <idc.idc>
+static main(void) {
+*content*
+}
+
+
 #### handlles 
 
 #### malfind
